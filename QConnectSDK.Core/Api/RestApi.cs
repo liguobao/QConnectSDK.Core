@@ -1,17 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using QConnectSDK.Context;
-using RestSharp;
-using QConnectSDK.Config;
-using QConnectSDK.Models;
-using RestSharp.Deserializers;
 using System.Net;
-using QConnectSDK.Exceptions;
-using QConnectSDK.Authenticators;
+using QConnectSDK.Core.Config;
+using QConnectSDK.Core.Context;
+using QConnectSDK.Core.Exceptions;
+using RestSharp;
+using RestSharp.Deserializers;
 
-namespace QConnectSDK.Api
+namespace QConnectSDK.Core.Api
 {
     /// <summary>
     /// QQ登录API

@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Collections.Specialized;
-using System.Configuration;
-using System.Web;
 
-namespace QConnectSDK.Config
+namespace QConnectSDK.Core.Config
 {
     /// <summary>
     /// QQ互联的配置数据

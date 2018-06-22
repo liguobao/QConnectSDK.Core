@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f277041-cd6a-4bb2-896d-d27718377fa0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.QConnectSDK.Core/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.QConnectSDK.Core/.idea/contentModel.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3f277041-cd6a-4bb2-896d-d27718377fa0" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,111 +10,269 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Qzone.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Api/Qzone.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-              <folding>
-                <marker date="1515078580000" expanded="true" signature="6:294" ph="..." />
-                <marker date="1515078580000" expanded="true" signature="321:11702" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="361:11700" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="376:581" ph="/// 通过Authorization Code获取Access Token ... " />
-                <marker date="1515078580000" expanded="true" signature="658:1025" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="1079:1304" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="1358:1552" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="1617:2251" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="1778:2215" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="1904:2019" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="2072:2201" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="2261:2361" ph="/// 获取当前的登陆用户信息 ... " />
-                <marker date="1515078580000" expanded="true" signature="2398:2845" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="2855:4433" ph="/// 第三方网站可以调用本分享接口，在用户授权的情况下，可以以用户的名义发布一条动态（feeds）到QQ空间和朋友网上， ... " />
-                <marker date="1515078580000" expanded="true" signature="4632:5088" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="5098:5244" ph="/// 验证登录的用户是否为某个认证空间的粉丝 ... " />
-                <marker date="1515078580000" expanded="true" signature="5300:5749" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="5759:5852" ph="/// 获取登录用户的相册列表。 ... " />
-                <marker date="1515078580000" expanded="true" signature="5904:6349" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="6359:6910" ph="/// 登录用户创建相册 ... " />
-                <marker date="1515078580000" expanded="true" signature="7037:7513" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="7523:8070" ph="/// 登录用户上传照片。 ... " />
-                <marker date="1515078580000" expanded="true" signature="8203:8693" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="8703:8944" ph="/// 登录用户发表一篇新日志 ... " />
-                <marker date="1515078580000" expanded="true" signature="9011:9482" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="9492:11038" ph="/// 登录用户发布心情，发布以后，将在QQ空间的说说下添加一条动态，以分享给好友。 ... " />
-                <marker date="1515078580000" expanded="true" signature="11181:11693" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QQConnectConfig.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Config/QQConnectConfig.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
-              <folding>
-                <marker date="1529628435263" expanded="true" signature="6:169" ph="..." />
-                <marker date="1529628435263" expanded="true" signature="199:1873" ph="{...}" />
-                <marker date="1529628435263" expanded="true" signature="206:256" ph="/// QQ互联的配置数据 ... " />
-                <marker date="1529628435263" expanded="true" signature="308:1871" ph="{...}" />
-                <marker date="1529628435263" expanded="true" signature="481:588" ph="/// 获取Authorization Code的URL地址 ... " />
-                <marker date="1529628435263" expanded="true" signature="628:697" ph="{...}" />
-                <marker date="1529628435263" expanded="true" signature="707:822" ph="/// 申请QQ登录成功后，分配给应用的appid ... " />
-                <marker date="1529628435263" expanded="true" signature="856:919" ph="{...}" />
-                <marker date="1529628435263" expanded="true" signature="929:1048" ph="/// 申请QQ登录成功后，分配给网站的appkey ... " />
-                <marker date="1529628435263" expanded="true" signature="1085:1151" ph="{...}" />
-                <marker date="1529628435263" expanded="true" signature="1161:1248" ph="/// 得到回调地址 ... " />
-                <marker date="1529628435263" expanded="true" signature="1284:1865" ph="{...}" />
-                <marker date="1529628435263" expanded="true" signature="1431:1813" ph="{...}" />
-                <marker date="1529628435263" expanded="true" signature="1462:1799" ph="/* var current = HttpContext.Current; ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QzoneContext.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Context/QzoneContext.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1515078580000" expanded="false" signature="6:273" ph="..." />
-                <marker date="1515078580000" expanded="true" signature="304:4100" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="311:362" ph="/// QQ登陆的上下文数据 ... " />
-                <marker date="1515078580000" expanded="true" signature="411:4098" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="460:629" ph="/// 用于用户接受授权后使用Authorization Code进行上下文设置 ... " />
-                <marker date="1515078580000" expanded="true" signature="678:849" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="859:922" ph="/// 用户将第一次使用QQ互联服务 ... " />
-                <marker date="1515078580000" expanded="true" signature="984:1017" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="1027:1204" ph="/// 用于用户已经完成授权后，将OAuthToken持久化保存后，使用这个函数从持久化介质中获取到的 ... " />
-                <marker date="1515078580000" expanded="true" signature="1255:1415" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="1473:1526" ph="/// 配置数据 ... " />
-                <marker date="1515078580000" expanded="true" signature="1564:1655" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="1665:2298" ph="/// 获取Authorization Code的URL地址 ... " />
-                <marker date="1515078580000" expanded="true" signature="2370:2973" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="2464:2685" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="2702:2939" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="3022:3119" ph="/// 用于用户接受授权后使用Authorization Code，用于后续获取Access Token ... " />
-                <marker date="1515078580000" expanded="true" signature="3155:3340" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="3181:3247" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="3263:3330" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="3390:3475" ph="/// 通过Authorization Code获取到的Access Token ... " />
-                <marker date="1515078580000" expanded="true" signature="3513:3692" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="3539:3602" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="3618:3682" ph="{...}" />
-                <marker date="1515078580000" expanded="true" signature="3702:3907" ph="/// 通过Authorization Code获取Access Token ... " />
-                <marker date="1515078580000" expanded="true" signature="3962:4084" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/.gitignore">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MicroBlogBase.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/MicroBlogBase.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <marker date="1529629175556" expanded="true" signature="60:428" ph="{...}" />
+                <marker date="1529629175556" expanded="true" signature="67:113" ph="/// 微博的基类 ... " />
+                <marker date="1529629175556" expanded="true" signature="155:426" ph="{...}" />
+                <marker date="1529629175556" expanded="true" signature="170:376" ph="/// 二级错误码,http://wiki.opensns.qq.com/wiki/%E3%80%90QQ%E7%99%BB%E5%BD%95%E3%80%91%E5%BE%AE%E5%8D%9A%E7%A7%81%E6%9C ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OAuthToken.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/OAuthToken.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <marker date="1529629175574" expanded="true" signature="48:502" ph="{...}" />
+                <marker date="1529629175574" expanded="true" signature="55:108" ph="/// QQ空间OAuth2.0 ... " />
+                <marker date="1529629175574" expanded="true" signature="155:500" ph="{...}" />
+                <marker date="1529629175574" expanded="true" signature="170:231" ph="/// access token ... " />
+                <marker date="1529629175574" expanded="true" signature="289:344" ph="/// 用户唯一标识 ... " />
+                <marker date="1529629175574" expanded="true" signature="397:450" ph="/// 过期时间 ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Picture.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/Picture.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+              <folding>
+                <marker date="1529629175563" expanded="true" signature="60:928" ph="{...}" />
+                <marker date="1529629175563" expanded="true" signature="67:112" ph="/// 照片数据 ... " />
+                <marker date="1529629175563" expanded="true" signature="149:926" ph="{...}" />
+                <marker date="1529629175563" expanded="true" signature="164:217" ph="/// 相册ID ... " />
+                <marker date="1529629175563" expanded="true" signature="247:269" ph="{...}" />
+                <marker date="1529629175563" expanded="true" signature="279:333" ph="/// 大图ID  ... " />
+                <marker date="1529629175563" expanded="true" signature="384:439" ph="///  小图ID  ... " />
+                <marker date="1529629175563" expanded="true" signature="490:544" ph="/// 大图地址  ... " />
+                <marker date="1529629175563" expanded="true" signature="600:654" ph="/// 小图地址  ... " />
+                <marker date="1529629175563" expanded="true" signature="710:769" ph="/// 图片高（单位：像素） ... " />
+                <marker date="1529629175563" expanded="true" signature="819:879" ph="/// 图片宽（单位：像素）  ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QzoneBase.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/QzoneBase.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
+              <folding>
+                <marker date="1529629175549" expanded="true" signature="33:369" ph="{...}" />
+                <marker date="1529629175549" expanded="true" signature="40:93" ph="/// QQ互联的所有结果的基类 ... " />
+                <marker date="1529629175549" expanded="true" signature="120:367" ph="{...}" />
+                <marker date="1529629175549" expanded="true" signature="135:188" ph="/// 返回码  ... " />
+                <marker date="1529629175549" expanded="true" signature="234:321" ph="/// 如果ret 小于 0，会有相应的错误信息提示，返回数据全部用UTF-8编码  ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/User.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <marker date="1529629175560" expanded="true" signature="33:702" ph="{...}" />
+                <marker date="1529629175560" expanded="true" signature="40:90" ph="/// QQ空间的个人资料 ... " />
+                <marker date="1529629175560" expanded="true" signature="124:700" ph="{...}" />
+                <marker date="1529629175560" expanded="true" signature="139:191" ph="/// 昵称  ... " />
+                <marker date="1529629175560" expanded="true" signature="246:300" ph="/// 头像URL ... " />
+                <marker date="1529629175560" expanded="true" signature="356:407" ph="/// 性别 ... " />
+                <marker date="1529629175560" expanded="true" signature="460:538" ph="/// 标识用户是否为黄钻用户（0：非黄钻用户； 1：黄钻用户）  ... " />
+                <marker date="1529629175560" expanded="true" signature="585:654" ph="///  黄钻等级。如果不是黄钻用户，则返回0  ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserAlbums.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/UserAlbums.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <marker date="1529629175567" expanded="true" signature="6:47" ph="..." />
+                <marker date="1529629175567" expanded="true" signature="82:1143" ph="{...}" />
+                <marker date="1529629175567" expanded="true" signature="89:136" ph="///  用户的相册 ... " />
+                <marker date="1529629175567" expanded="true" signature="176:403" ph="{...}" />
+                <marker date="1529629175567" expanded="true" signature="191:244" ph="/// 相册列表 ... " />
+                <marker date="1529629175567" expanded="true" signature="300:354" ph="/// 相册总数  ... " />
+                <marker date="1529629175567" expanded="true" signature="409:452" ph="/// 相册 ... " />
+                <marker date="1529629175567" expanded="true" signature="487:1141" ph="{...}" />
+                <marker date="1529629175567" expanded="true" signature="502:556" ph="///  相册ID ... " />
+                <marker date="1529629175567" expanded="true" signature="609:665" ph="/// 相册分类ID  ... " />
+                <marker date="1529629175567" expanded="true" signature="716:772" ph="/// 相册创建时间  ... " />
+                <marker date="1529629175567" expanded="true" signature="831:885" ph="/// 相册描述  ... " />
+                <marker date="1529629175567" expanded="true" signature="935:989" ph="/// 相册名称  ... " />
+                <marker date="1529629175567" expanded="true" signature="1040:1094" ph="///  照片数  ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeiboFan.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/WeiboFan.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <folding>
+                <marker date="1529629175570" expanded="true" signature="6:73" ph="..." />
+                <marker date="1529629175570" expanded="true" signature="108:2938" ph="{...}" />
+                <marker date="1529629175570" expanded="true" signature="115:161" ph="/// 用户的粉丝 ... " />
+                <marker date="1529629175570" expanded="true" signature="203:324" ph="{...}" />
+                <marker date="1529629175570" expanded="true" signature="218:275" ph="/// 听众的列表信息。 ... " />
+                <marker date="1529629175570" expanded="true" signature="330:376" ph="/// 用户的听众 ... " />
+                <marker date="1529629175570" expanded="true" signature="419:540" ph="{...}" />
+                <marker date="1529629175570" expanded="true" signature="434:491" ph="/// 听众的列表信息。 ... " />
+                <marker date="1529629175570" expanded="true" signature="546:593" ph="/// 微博用户数据 ... " />
+                <marker date="1529629175570" expanded="true" signature="619:1023" ph="{...}" />
+                <marker date="1529629175570" expanded="true" signature="634:691" ph="/// 服务器时间戳。  ... " />
+                <marker date="1529629175570" expanded="true" signature="745:859" ph="///  表示是否还有听众信息可以拉取。 ... " />
+                <marker date="1529629175570" expanded="true" signature="910:967" ph="/// 听众的详细信息列 ... " />
+                <marker date="1529629175570" expanded="true" signature="1029:1072" ph="/// 用户 ... " />
+                <marker date="1529629175570" expanded="true" signature="1093:2462" ph="{...}" />
+                <marker date="1529629175570" expanded="true" signature="1108:1164" ph="/// 听众的账户名。 ... " />
+                <marker date="1529629175570" expanded="true" signature="1213:1282" ph="/// 听众的唯一ID，与QQ号码一一对应。   ... " />
+                <marker date="1529629175570" expanded="true" signature="1332:1388" ph="///  听众的昵称。 ... " />
+                <marker date="1529629175570" expanded="true" signature="1437:1496" ph="/// 听众头像url。   ... " />
+                <marker date="1529629175570" expanded="true" signature="1543:1617" ph="/// 听众性别（0：表示未填写； 1：男； 2：女）。  ... " />
+                <marker date="1529629175570" expanded="true" signature="1665:1721" ph="/// 听众所在地。  ... " />
+                <marker date="1529629175570" expanded="true" signature="1774:1841" ph="/* 听众最近发表的一条微博。 ... */" />
+                <marker date="1529629175570" expanded="true" signature="1900:1956" ph="///  听众数。   ... " />
+                <marker date="1529629175570" expanded="true" signature="2003:2061" ph="///  收听的人数。   ... " />
+                <marker date="1529629175570" expanded="true" signature="2110:2182" ph="/// 是否为用户收听的人（0：不是； 1：是）。   ... " />
+                <marker date="1529629175570" expanded="true" signature="2230:2304" ph="/// 听众是否为微博认证用户（0：不是； 1：是）。   ... " />
+                <marker date="1529629175570" expanded="true" signature="2351:2406" ph="/// 标签信息列表 ... " />
+                <marker date="1529629175570" expanded="true" signature="2488:2936" ph="{...}" />
+                <marker date="1529629175570" expanded="true" signature="2503:2559" ph="/// 微博的来源。  ... " />
+                <marker date="1529629175570" expanded="true" signature="2608:2675" ph="/// 微博ID，用来唯一标识一条微博。   ... " />
+                <marker date="1529629175570" expanded="true" signature="2722:2778" ph="/// 微博的内容。  ... " />
+                <marker date="1529629175570" expanded="true" signature="2829:2886" ph="/// 发表微博的时间。 ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeiboRePost.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/WeiboRePost.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <marker date="1529629175553" expanded="true" signature="6:47" ph="..." />
+                <marker date="1529629175553" expanded="true" signature="82:3281" ph="{...}" />
+                <marker date="1529629175553" expanded="true" signature="89:136" ph="/// 转播或者评论 ... " />
+                <marker date="1529629175553" expanded="true" signature="180:301" ph="{...}" />
+                <marker date="1529629175553" expanded="true" signature="195:255" ph="/// 转播或评论的信息列表。 ... " />
+                <marker date="1529629175553" expanded="true" signature="307:356" ph="/// 转播或评论的信息 ... " />
+                <marker date="1529629175553" expanded="true" signature="380:880" ph="{...}" />
+                <marker date="1529629175553" expanded="true" signature="395:502" ph="/// 表示是否还有微博可以拉取。 ... " />
+                <marker date="1529629175553" expanded="true" signature="553:608" ph="/// 服务器时间戳 ... " />
+                <marker date="1529629175553" expanded="true" signature="664:715" ph="/// 总数 ... " />
+                <marker date="1529629175553" expanded="true" signature="766:825" ph="/// 微博的详细信息列表。 ... " />
+                <marker date="1529629175553" expanded="true" signature="907:3273" ph="{...}" />
+                <marker date="1529629175553" expanded="true" signature="922:980" ph="/// 获取的微博的内容。 ... " />
+                <marker date="1529629175553" expanded="true" signature="1030:1091" ph="///  获取源微博的内容。   ... " />
+                <marker date="1529629175553" expanded="true" signature="1142:1196" ph="/// 转播次数。 ... " />
+                <marker date="1529629175553" expanded="true" signature="1244:1300" ph="///  评论数。   ... " />
+                <marker date="1529629175553" expanded="true" signature="1346:1401" ph="/// 微博来源。  ... " />
+                <marker date="1529629175553" expanded="true" signature="1449:1516" ph="/// 微博的ID，用来唯一标识一条微博。  ... " />
+                <marker date="1529629175553" expanded="true" signature="1563:1623" ph="/// 微博中的图片url。  ... " />
+                <marker date="1529629175553" expanded="true" signature="1673:1735" ph="/// 发表或转播微博的用户名称。 ... " />
+                <marker date="1529629175553" expanded="true" signature="1785:1855" ph="/// 发表或转播微博的用户QQ号码对应的ID。  ... " />
+                <marker date="1529629175553" expanded="true" signature="1906:1962" ph="/// 用户昵称。   ... " />
+                <marker date="1529629175553" expanded="true" signature="2010:2083" ph="/// 是否为自己发表的微博（0：不是； 1：是）。   ... " />
+                <marker date="1529629175553" expanded="true" signature="2127:2187" ph="/// 发表或转播微博的时间。 ... " />
+                <marker date="1529629175553" expanded="true" signature="2242:2433" ph="/// 表示微博的类型。 ... " />
+                <marker date="1529629175553" expanded="true" signature="2480:2539" ph="///  用户的头像url。 ... " />
+                <marker date="1529629175553" expanded="true" signature="2588:2646" ph="/// 用户所在的省市。  ... " />
+                <marker date="1529629175553" expanded="true" signature="2699:2761" ph="///  用户所在的国家代码。   ... " />
+                <marker date="1529629175553" expanded="true" signature="2816:2877" ph="///  用户所在的省代码。   ... " />
+                <marker date="1529629175553" expanded="true" signature="2933:2994" ph="///  用户所在的城市代码   ... " />
+                <marker date="1529629175553" expanded="true" signature="3050:3123" ph="///  用户是否为微博认证用户（0：不是； 1：是）。 ... " />
+                <marker date="1529629175553" expanded="true" signature="3168:3226" ph="/// 用户地理信息。   ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeiboUser.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/WeiboUser.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+              <folding>
+                <marker date="1529629175578" expanded="true" signature="6:47" ph="..." />
+                <marker date="1529629175578" expanded="true" signature="82:3710" ph="{...}" />
+                <marker date="1529629175578" expanded="true" signature="89:137" ph="/// 微博的用户数据 ... " />
+                <marker date="1529629175578" expanded="true" signature="179:305" ph="{...}" />
+                <marker date="1529629175578" expanded="true" signature="194:255" ph="/// 登录用户的详细信息列表。 ... " />
+                <marker date="1529629175578" expanded="true" signature="311:356" ph="/// 用户数据 ... " />
+                <marker date="1529629175578" expanded="true" signature="382:2866" ph="{...}" />
+                <marker date="1529629175578" expanded="true" signature="397:455" ph="/// 登录用户的帐号名。 ... " />
+                <marker date="1529629175578" expanded="true" signature="505:574" ph="/// 登录用户的唯一ID，与QQ号码一一对应。 ... " />
+                <marker date="1529629175578" expanded="true" signature="627:683" ph="/// 登录用户昵称。 ... " />
+                <marker date="1529629175578" expanded="true" signature="730:790" ph="/// 登录用户头像url。  ... " />
+                <marker date="1529629175578" expanded="true" signature="840:899" ph="///  登录用户所在地。  ... " />
+                <marker date="1529629175578" expanded="true" signature="951:1025" ph="/// 登录用户是否为微博认证用户（0：不是； 1：是）。 ... " />
+                <marker date="1529629175578" expanded="true" signature="1071:1143" ph="/// 登录用户是否为企业机构（0：不是； 1：是）。 ... " />
+                <marker date="1529629175578" expanded="true" signature="1189:1248" ph="/// 登录用户的个人介绍。 ... " />
+                <marker date="1529629175578" expanded="true" signature="1306:1360" ph="/// 认证信息。 ... " />
+                <marker date="1529629175578" expanded="true" signature="1416:1473" ph="/// 登录用户出生年。 ... " />
+                <marker date="1529629175578" expanded="true" signature="1526:1584" ph="/// 登录用户出生月份。 ... " />
+                <marker date="1529629175578" expanded="true" signature="1638:1695" ph="/// 登录用户出生日。 ... " />
+                <marker date="1529629175578" expanded="true" signature="1747:1809" ph="/// 登录用户所在的国家代码。  ... " />
+                <marker date="1529629175578" expanded="true" signature="1863:1923" ph="/// 登录用户所在的省代码。 ... " />
+                <marker date="1529629175578" expanded="true" signature="1979:2040" ph="/// 登录用户所在的城市代码。 ... " />
+                <marker date="1529629175578" expanded="true" signature="2089:2163" ph="///   登录用户性别（1：男； 2：女； 3：未知）。 ... " />
+                <marker date="1529629175578" expanded="true" signature="2208:2267" ph="///  登录用户听众数。  ... " />
+                <marker date="1529629175578" expanded="true" signature="2315:2374" ph="/// 登录用户收听的人数。 ... " />
+                <marker date="1529629175578" expanded="true" signature="2424:2486" ph="/// 登录用户发表的微博数。   ... " />
+                <marker date="1529629175578" expanded="true" signature="2535:2590" ph="/// 标签信息列表 ... " />
+                <marker date="1529629175578" expanded="true" signature="2646:2706" ph="/// 登录用户教育信息列表。 ... " />
+                <marker date="1529629175578" expanded="true" signature="2762:2820" ph="/// 用户注册的邮箱。  ... " />
+                <marker date="1529629175578" expanded="true" signature="2872:2917" ph="/// 个人标签 ... " />
+                <marker date="1529629175578" expanded="true" signature="2942:3155" ph="{...}" />
+                <marker date="1529629175578" expanded="true" signature="2957:3012" ph="/// 个人标签id ... " />
+                <marker date="1529629175578" expanded="true" signature="3057:3111" ph="///  标签名。 ... " />
+                <marker date="1529629175578" expanded="true" signature="3181:3708" ph="{...}" />
+                <marker date="1529629175578" expanded="true" signature="3196:3253" ph="/// 学历记录ID。  ... " />
+                <marker date="1529629175578" expanded="true" signature="3296:3351" ph="/// 入学年。   ... " />
+                <marker date="1529629175578" expanded="true" signature="3396:3449" ph="/// 学校ID ... " />
+                <marker date="1529629175578" expanded="true" signature="3500:3556" ph="///  院系id。  ... " />
+                <marker date="1529629175578" expanded="true" signature="3609:3663" ph="/// 学历级别。 ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeiyunBase.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/WeiyunBase.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+              <folding>
+                <marker date="1529629175581" expanded="true" signature="33:364" ph="{...}" />
+                <marker date="1529629175581" expanded="true" signature="40:87" ph="/// 微云接口基类 ... " />
+                <marker date="1529629175581" expanded="true" signature="115:362" ph="{...}" />
+                <marker date="1529629175581" expanded="true" signature="130:183" ph="/// 返回码  ... " />
+                <marker date="1529629175581" expanded="true" signature="229:316" ph="/// 如果ret 小于 0，会有相应的错误信息提示，返回数据全部用UTF-8编码  ... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,19 +283,68 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/23AB7A00-4A24-430B-AC43-8833B38A94EB/16/f1d28bfe/NameValueCollection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/LibraryType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/Picture.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/WeiboUser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/CheckPageResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/OAuthToken.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/DelWeiboResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/AddBlogResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/UserAlbums.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/WeiboFan.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/WeiboRePost.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/MicroBlogBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/WeiyunBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/AddWeiboResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/QzoneBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Context/QzoneContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Exceptions/QzoneException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Authenticators/OAuthAuthenticator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Config/QQConnectConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Api/Microblog.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Api/Util.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Api/Weiyun.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Api/RequestHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Api/Tenpay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Api/RestApi.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Api/Qzone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/QOpenClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/23AB7A00-4A24-430B-AC43-8833B38A94EB/16/f1d28bfe/NameValueCollection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Config/Endpoints.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Config/QQConnectConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/Callback.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/QConnectSDK.Core/Authenticators/OAuthAuthenticator.cs" />
-        <option value="$PROJECT_DIR$/QConnectSDK.Core/Config/QQConnectConfig.cs" />
         <option value="$PROJECT_DIR$/QConnectSDK.Core/.gitignore" />
+        <option value="$PROJECT_DIR$/QConnectSDK.Core/Api/Weiyun.cs" />
+        <option value="$PROJECT_DIR$/QConnectSDK.Core/Api/Microblog.cs" />
+        <option value="$PROJECT_DIR$/QConnectSDK.Core/QOpenClient.cs" />
+        <option value="$PROJECT_DIR$/QConnectSDK.Core/Models/AddBlogResult.cs" />
+        <option value="$PROJECT_DIR$/QConnectSDK.Core/Models/AddWeiboResult.cs" />
+        <option value="$PROJECT_DIR$/QConnectSDK.Core/Models/Callback.cs" />
+        <option value="$PROJECT_DIR$/QConnectSDK.Core/Models/CheckPageResult.cs" />
+        <option value="$PROJECT_DIR$/QConnectSDK.Core/Api/RequestHelper.cs" />
+        <option value="$PROJECT_DIR$/QConnectSDK.Core/Api/RestApi.cs" />
+        <option value="$PROJECT_DIR$/QConnectSDK.Core/Api/Tenpay.cs" />
+        <option value="$PROJECT_DIR$/QConnectSDK.Core/Api/Util.cs" />
+        <option value="$PROJECT_DIR$/QConnectSDK.Core/Authenticators/OAuthAuthenticator.cs" />
+        <option value="$PROJECT_DIR$/QConnectSDK.Core/Config/Endpoints.cs" />
+        <option value="$PROJECT_DIR$/QConnectSDK.Core/Config/QQConnectConfig.cs" />
+        <option value="$PROJECT_DIR$/QConnectSDK.Core/Context/QzoneContext.cs" />
+        <option value="$PROJECT_DIR$/QConnectSDK.Core/Exceptions/QzoneException.cs" />
+        <option value="$PROJECT_DIR$/QConnectSDK.Core/Models/LibraryType.cs" />
+        <option value="$PROJECT_DIR$/QConnectSDK.Core/Models/MicroBlogBase.cs" />
+        <option value="$PROJECT_DIR$/QConnectSDK.Core/Models/OAuthToken.cs" />
+        <option value="$PROJECT_DIR$/QConnectSDK.Core/Models/Picture.cs" />
+        <option value="$PROJECT_DIR$/QConnectSDK.Core/Models/QzoneBase.cs" />
+        <option value="$PROJECT_DIR$/QConnectSDK.Core/Models/User.cs" />
+        <option value="$PROJECT_DIR$/QConnectSDK.Core/Models/UserAlbums.cs" />
+        <option value="$PROJECT_DIR$/QConnectSDK.Core/Models/WeiboFan.cs" />
+        <option value="$PROJECT_DIR$/QConnectSDK.Core/Models/WeiboRePost.cs" />
+        <option value="$PROJECT_DIR$/QConnectSDK.Core/Models/WeiboUser.cs" />
+        <option value="$PROJECT_DIR$/QConnectSDK.Core/Models/WeiyunBase.cs" />
       </list>
     </option>
   </component>
@@ -152,7 +357,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
@@ -162,6 +367,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -174,13 +380,48 @@
               <item name="QConnectSDK.Core (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="QConnectSDK.Core" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="QConnectSDK.Core (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="QConnectSDK.Core" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Api" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="QConnectSDK.Core (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="QConnectSDK.Core" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Authenticators" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="QConnectSDK.Core (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="QConnectSDK.Core" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Config" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="QConnectSDK.Core (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="QConnectSDK.Core" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Context" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="QConnectSDK.Core (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="QConnectSDK.Core" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Exceptions" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="QConnectSDK.Core (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="QConnectSDK.Core" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,11 +451,12 @@
       <option name="presentableId" value="Default" />
       <updated>1529628120512</updated>
       <workItem from="1529628122188" duration="600000" />
+      <workItem from="1529628865062" duration="311000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="600000" />
+    <option name="totallyTimeSpent" value="911000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -226,56 +468,57 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="955" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32923076" />
-      <window_info anchor="bottom" id="NuGet" weight="0.37435898" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" weight="0.32923076" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.1923077" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.37435898" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.32867134" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="NuGet" order="0" weight="0.37435898" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="10" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="14" />
-      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Find" order="9" />
       <window_info anchor="bottom" id="Unit Tests" order="3" />
-      <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info anchor="right" id="Errors In Solution" order="0" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info active="true" anchor="bottom" id="Build" order="7" visible="true" weight="0.32923076" />
-      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Build" order="7" visible="true" weight="0.32923076" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,121 +534,111 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/23AB7A00-4A24-430B-AC43-8833B38A94EB/16/f1d28bfe/NameValueCollection.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Authenticators/OAuthAuthenticator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding>
-            <marker date="1529628302267" expanded="true" signature="6:134" ph="..." />
-            <marker date="1529628302267" expanded="true" signature="172:1511" ph="{...}" />
-            <marker date="1529628302267" expanded="true" signature="179:259" ph="/// 腾讯社区开放平台OAuth2，腾讯社区开放平台额外增加了一个OpenId的参数 ... " />
-            <marker date="1529628302267" expanded="true" signature="334:1509" ph="{...}" />
-            <marker date="1529628302267" expanded="true" signature="435:672" ph="/// 构造函数，OAuth2.0协议必须传入的通用参数 ... " />
-            <marker date="1529628302267" expanded="true" signature="809:907" ph="{...}" />
-            <marker date="1529628302267" expanded="true" signature="917:1140" ph="/// 调用所有OpenAPI时，除了各接口私有的参数外，所有OpenAPI都需要传入基于OAuth2.0协议的通用参数 ... " />
-            <marker date="1529628302267" expanded="true" signature="1224:1503" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Api/Microblog.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-          <folding>
-            <marker date="1515078580000" expanded="false" signature="6:145" ph="..." />
-            <marker date="1515078580000" expanded="true" signature="172:9219" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="207:9217" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="222:799" ph="/// 发表一条微博信息（纯文本）到腾讯微博平台上 ... " />
-            <marker date="1515078580000" expanded="true" signature="929:1379" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="1398:2137" ph="/// 上传一张图片，并发布一条消息到腾讯微博平台上 ... " />
-            <marker date="1515078580000" expanded="true" signature="2308:2776" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="2786:2922" ph="/// 根据微博ID删除指定微博。 ... " />
-            <marker date="1515078580000" expanded="true" signature="2971:3376" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="3386:4111" ph="/// 获取一条微博的转播或评论信息列表。 ... " />
-            <marker date="1515078580000" expanded="true" signature="4247:4698" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="4708:4805" ph="/// 获取腾讯微博登录用户的用户资料。 ... " />
-            <marker date="1515078580000" expanded="true" signature="4849:5293" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="5303:5547" ph="/// 获取腾讯微博其他用户详细信息。 ... " />
-            <marker date="1515078580000" expanded="true" signature="5621:6081" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="6091:6300" ph="/// 获取登录用户的听众列表 ... " />
-            <marker date="1515078580000" expanded="true" signature="6364:6820" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="6830:7042" ph="/// 获取登录用户收听的人的列表。 ... " />
-            <marker date="1515078580000" expanded="true" signature="7107:7564" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="7574:7942" ph="/// 收听腾讯微博上的用户。 ... " />
-            <marker date="1515078580000" expanded="true" signature="8009:8463" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="8473:8691" ph="/// 取消收听腾讯微博上的用户。         ... " />
-            <marker date="1515078580000" expanded="true" signature="8757:9210" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Api/Qzone.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
           <folding>
-            <marker date="1515078580000" expanded="true" signature="6:294" ph="..." />
-            <marker date="1515078580000" expanded="true" signature="321:11702" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="361:11700" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="376:581" ph="/// 通过Authorization Code获取Access Token ... " />
-            <marker date="1515078580000" expanded="true" signature="658:1025" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="1079:1304" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="1358:1552" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="1617:2251" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="1778:2215" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="1904:2019" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="2072:2201" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="2261:2361" ph="/// 获取当前的登陆用户信息 ... " />
-            <marker date="1515078580000" expanded="true" signature="2398:2845" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="2855:4433" ph="/// 第三方网站可以调用本分享接口，在用户授权的情况下，可以以用户的名义发布一条动态（feeds）到QQ空间和朋友网上， ... " />
-            <marker date="1515078580000" expanded="true" signature="4632:5088" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="5098:5244" ph="/// 验证登录的用户是否为某个认证空间的粉丝 ... " />
-            <marker date="1515078580000" expanded="true" signature="5300:5749" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="5759:5852" ph="/// 获取登录用户的相册列表。 ... " />
-            <marker date="1515078580000" expanded="true" signature="5904:6349" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="6359:6910" ph="/// 登录用户创建相册 ... " />
-            <marker date="1515078580000" expanded="true" signature="7037:7513" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="7523:8070" ph="/// 登录用户上传照片。 ... " />
-            <marker date="1515078580000" expanded="true" signature="8203:8693" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="8703:8944" ph="/// 登录用户发表一篇新日志 ... " />
-            <marker date="1515078580000" expanded="true" signature="9011:9482" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="9492:11038" ph="/// 登录用户发布心情，发布以后，将在QQ空间的说说下添加一条动态，以分享给好友。 ... " />
-            <marker date="1515078580000" expanded="true" signature="11181:11693" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="6:247" ph="..." />
+            <marker date="1529629078330" expanded="true" signature="274:11655" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="314:11653" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="329:534" ph="/// 通过Authorization Code获取Access Token ... " />
+            <marker date="1529629078330" expanded="true" signature="611:978" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="1032:1257" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="1311:1505" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="1570:2204" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="1731:2168" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="1857:1972" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="2025:2154" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="2214:2314" ph="/// 获取当前的登陆用户信息 ... " />
+            <marker date="1529629078330" expanded="true" signature="2351:2798" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="2808:4386" ph="/// 第三方网站可以调用本分享接口，在用户授权的情况下，可以以用户的名义发布一条动态（feeds）到QQ空间和朋友网上， ... " />
+            <marker date="1529629078330" expanded="true" signature="4585:5041" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="5051:5197" ph="/// 验证登录的用户是否为某个认证空间的粉丝 ... " />
+            <marker date="1529629078330" expanded="true" signature="5253:5702" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="5712:5805" ph="/// 获取登录用户的相册列表。 ... " />
+            <marker date="1529629078330" expanded="true" signature="5857:6302" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="6312:6863" ph="/// 登录用户创建相册 ... " />
+            <marker date="1529629078330" expanded="true" signature="6990:7466" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="7476:8023" ph="/// 登录用户上传照片。 ... " />
+            <marker date="1529629078330" expanded="true" signature="8156:8646" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="8656:8897" ph="/// 登录用户发表一篇新日志 ... " />
+            <marker date="1529629078330" expanded="true" signature="8964:9435" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="9445:10991" ph="/// 登录用户发布心情，发布以后，将在QQ空间的说说下添加一条动态，以分享给好友。 ... " />
+            <marker date="1529629078330" expanded="true" signature="11134:11646" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Config/QQConnectConfig.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
+        <state relative-caret-position="915">
           <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
           <folding>
-            <marker date="1529628435263" expanded="true" signature="6:169" ph="..." />
-            <marker date="1529628435263" expanded="true" signature="199:1873" ph="{...}" />
-            <marker date="1529628435263" expanded="true" signature="206:256" ph="/// QQ互联的配置数据 ... " />
-            <marker date="1529628435263" expanded="true" signature="308:1871" ph="{...}" />
-            <marker date="1529628435263" expanded="true" signature="481:588" ph="/// 获取Authorization Code的URL地址 ... " />
-            <marker date="1529628435263" expanded="true" signature="628:697" ph="{...}" />
-            <marker date="1529628435263" expanded="true" signature="707:822" ph="/// 申请QQ登录成功后，分配给应用的appid ... " />
-            <marker date="1529628435263" expanded="true" signature="856:919" ph="{...}" />
-            <marker date="1529628435263" expanded="true" signature="929:1048" ph="/// 申请QQ登录成功后，分配给网站的appkey ... " />
-            <marker date="1529628435263" expanded="true" signature="1085:1151" ph="{...}" />
-            <marker date="1529628435263" expanded="true" signature="1161:1248" ph="/// 得到回调地址 ... " />
-            <marker date="1529628435263" expanded="true" signature="1284:1865" ph="{...}" />
-            <marker date="1529628435263" expanded="true" signature="1431:1813" ph="{...}" />
-            <marker date="1529628435263" expanded="true" signature="1462:1799" ph="/* var current = HttpContext.Current; ... */" />
+            <marker date="1529629078364" expanded="true" signature="6:51" ph="..." />
+            <marker date="1529629078364" expanded="true" signature="86:1760" ph="{...}" />
+            <marker date="1529629078364" expanded="true" signature="93:143" ph="/// QQ互联的配置数据 ... " />
+            <marker date="1529629078364" expanded="true" signature="195:1758" ph="{...}" />
+            <marker date="1529629078364" expanded="true" signature="368:475" ph="/// 获取Authorization Code的URL地址 ... " />
+            <marker date="1529629078364" expanded="true" signature="515:584" ph="{...}" />
+            <marker date="1529629078364" expanded="true" signature="594:709" ph="/// 申请QQ登录成功后，分配给应用的appid ... " />
+            <marker date="1529629078364" expanded="true" signature="743:806" ph="{...}" />
+            <marker date="1529629078364" expanded="true" signature="816:935" ph="/// 申请QQ登录成功后，分配给网站的appkey ... " />
+            <marker date="1529629078364" expanded="true" signature="972:1038" ph="{...}" />
+            <marker date="1529629078364" expanded="true" signature="1048:1135" ph="/// 得到回调地址 ... " />
+            <marker date="1529629078364" expanded="true" signature="1171:1752" ph="{...}" />
+            <marker date="1529629078364" expanded="true" signature="1318:1700" ph="{...}" />
+            <marker date="1529629078364" expanded="true" signature="1349:1686" ph="/* var current = HttpContext.Current; ... */" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Context/QzoneContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1529629155959" expanded="true" signature="6:147" ph="..." />
+            <marker date="1529629155959" expanded="true" signature="183:3979" ph="{...}" />
+            <marker date="1529629155959" expanded="true" signature="190:241" ph="/// QQ登陆的上下文数据 ... " />
+            <marker date="1529629155959" expanded="true" signature="290:3977" ph="{...}" />
+            <marker date="1529629155959" expanded="true" signature="339:508" ph="/// 用于用户接受授权后使用Authorization Code进行上下文设置 ... " />
+            <marker date="1529629155959" expanded="true" signature="557:728" ph="{...}" />
+            <marker date="1529629155959" expanded="true" signature="738:801" ph="/// 用户将第一次使用QQ互联服务 ... " />
+            <marker date="1529629155959" expanded="true" signature="863:896" ph="{...}" />
+            <marker date="1529629155959" expanded="true" signature="906:1083" ph="/// 用于用户已经完成授权后，将OAuthToken持久化保存后，使用这个函数从持久化介质中获取到的 ... " />
+            <marker date="1529629155959" expanded="true" signature="1134:1294" ph="{...}" />
+            <marker date="1529629155959" expanded="true" signature="1352:1405" ph="/// 配置数据 ... " />
+            <marker date="1529629155959" expanded="true" signature="1443:1534" ph="{...}" />
+            <marker date="1529629155959" expanded="true" signature="1544:2177" ph="/// 获取Authorization Code的URL地址 ... " />
+            <marker date="1529629155959" expanded="true" signature="2249:2852" ph="{...}" />
+            <marker date="1529629155959" expanded="true" signature="2343:2564" ph="{...}" />
+            <marker date="1529629155959" expanded="true" signature="2581:2818" ph="{...}" />
+            <marker date="1529629155959" expanded="true" signature="2901:2998" ph="/// 用于用户接受授权后使用Authorization Code，用于后续获取Access Token ... " />
+            <marker date="1529629155959" expanded="true" signature="3034:3219" ph="{...}" />
+            <marker date="1529629155959" expanded="true" signature="3060:3126" ph="{...}" />
+            <marker date="1529629155959" expanded="true" signature="3142:3209" ph="{...}" />
+            <marker date="1529629155959" expanded="true" signature="3269:3354" ph="/// 通过Authorization Code获取到的Access Token ... " />
+            <marker date="1529629155959" expanded="true" signature="3392:3571" ph="{...}" />
+            <marker date="1529629155959" expanded="true" signature="3418:3481" ph="{...}" />
+            <marker date="1529629155959" expanded="true" signature="3497:3561" ph="{...}" />
+            <marker date="1529629155959" expanded="true" signature="3581:3786" ph="/// 通过Authorization Code获取Access Token ... " />
+            <marker date="1529629155959" expanded="true" signature="3841:3963" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Class1.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/23AB7A00-4A24-430B-AC43-8833B38A94EB/16/f1d28bfe/NameValueCollection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -416,47 +649,720 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Properties/AssemblyInfo.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Context/QzoneContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1515078580000" expanded="false" signature="6:273" ph="..." />
-            <marker date="1515078580000" expanded="true" signature="304:4100" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="311:362" ph="/// QQ登陆的上下文数据 ... " />
-            <marker date="1515078580000" expanded="true" signature="411:4098" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="460:629" ph="/// 用于用户接受授权后使用Authorization Code进行上下文设置 ... " />
-            <marker date="1515078580000" expanded="true" signature="678:849" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="859:922" ph="/// 用户将第一次使用QQ互联服务 ... " />
-            <marker date="1515078580000" expanded="true" signature="984:1017" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="1027:1204" ph="/// 用于用户已经完成授权后，将OAuthToken持久化保存后，使用这个函数从持久化介质中获取到的 ... " />
-            <marker date="1515078580000" expanded="true" signature="1255:1415" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="1473:1526" ph="/// 配置数据 ... " />
-            <marker date="1515078580000" expanded="true" signature="1564:1655" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="1665:2298" ph="/// 获取Authorization Code的URL地址 ... " />
-            <marker date="1515078580000" expanded="true" signature="2370:2973" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="2464:2685" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="2702:2939" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="3022:3119" ph="/// 用于用户接受授权后使用Authorization Code，用于后续获取Access Token ... " />
-            <marker date="1515078580000" expanded="true" signature="3155:3340" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="3181:3247" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="3263:3330" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="3390:3475" ph="/// 通过Authorization Code获取到的Access Token ... " />
-            <marker date="1515078580000" expanded="true" signature="3513:3692" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="3539:3602" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="3618:3682" ph="{...}" />
-            <marker date="1515078580000" expanded="true" signature="3702:3907" ph="/// 通过Authorization Code获取Access Token ... " />
-            <marker date="1515078580000" expanded="true" signature="3962:4084" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Properties/AssemblyInfo.cs" />
     <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Api/Microblog.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <marker date="1529629014327" expanded="true" signature="6:109" ph="..." />
+            <marker date="1529629014327" expanded="true" signature="141:9188" ph="{...}" />
+            <marker date="1529629014327" expanded="true" signature="176:9186" ph="{...}" />
+            <marker date="1529629014327" expanded="true" signature="191:768" ph="/// 发表一条微博信息（纯文本）到腾讯微博平台上 ... " />
+            <marker date="1529629014327" expanded="true" signature="898:1348" ph="{...}" />
+            <marker date="1529629014327" expanded="true" signature="1367:2106" ph="/// 上传一张图片，并发布一条消息到腾讯微博平台上 ... " />
+            <marker date="1529629014327" expanded="true" signature="2277:2745" ph="{...}" />
+            <marker date="1529629014327" expanded="true" signature="2755:2891" ph="/// 根据微博ID删除指定微博。 ... " />
+            <marker date="1529629014327" expanded="true" signature="2940:3345" ph="{...}" />
+            <marker date="1529629014327" expanded="true" signature="3355:4080" ph="/// 获取一条微博的转播或评论信息列表。 ... " />
+            <marker date="1529629014327" expanded="true" signature="4216:4667" ph="{...}" />
+            <marker date="1529629014327" expanded="true" signature="4677:4774" ph="/// 获取腾讯微博登录用户的用户资料。 ... " />
+            <marker date="1529629014327" expanded="true" signature="4818:5262" ph="{...}" />
+            <marker date="1529629014327" expanded="true" signature="5272:5516" ph="/// 获取腾讯微博其他用户详细信息。 ... " />
+            <marker date="1529629014327" expanded="true" signature="5590:6050" ph="{...}" />
+            <marker date="1529629014327" expanded="true" signature="6060:6269" ph="/// 获取登录用户的听众列表 ... " />
+            <marker date="1529629014327" expanded="true" signature="6333:6789" ph="{...}" />
+            <marker date="1529629014327" expanded="true" signature="6799:7011" ph="/// 获取登录用户收听的人的列表。 ... " />
+            <marker date="1529629014327" expanded="true" signature="7076:7533" ph="{...}" />
+            <marker date="1529629014327" expanded="true" signature="7543:7911" ph="/// 收听腾讯微博上的用户。 ... " />
+            <marker date="1529629014327" expanded="true" signature="7978:8432" ph="{...}" />
+            <marker date="1529629014327" expanded="true" signature="8442:8660" ph="/// 取消收听腾讯微博上的用户。         ... " />
+            <marker date="1529629014327" expanded="true" signature="8726:9179" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/AddBlogResult.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <marker date="1529629004228" expanded="true" signature="60:353" ph="{...}" />
+            <marker date="1529629004228" expanded="true" signature="67:122" ph="/// 登录用户发表一篇新日志的结果 ... " />
+            <marker date="1529629004228" expanded="true" signature="165:351" ph="{...}" />
+            <marker date="1529629004228" expanded="true" signature="180:303" ph="///  固定为http://i.qq.com。用户在登录态下，可以通过该URL直接进入空间首页（这里不直接返回新发表日志的URL是为了避免泄漏用户信息）  ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/AddWeiboResult.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding>
+            <marker date="1529629008483" expanded="false" signature="6:39" ph="..." />
+            <marker date="1529629008483" expanded="true" signature="74:614" ph="{...}" />
+            <marker date="1529629008483" expanded="true" signature="86:143" ph="/// 添加微博返回结果数据Json格式 ... " />
+            <marker date="1529629008483" expanded="true" signature="190:308" ph="{...}" />
+            <marker date="1529629008483" expanded="true" signature="205:258" ph="/// 微博数据 ... " />
+            <marker date="1529629008483" expanded="true" signature="314:357" ph="/// 微博 ... " />
+            <marker date="1529629008483" expanded="true" signature="384:612" ph="{...}" />
+            <marker date="1529629008483" expanded="true" signature="399:453" ph="/// 微博的Id ... " />
+            <marker date="1529629008483" expanded="true" signature="500:558" ph="/// 微博消息的发表时间 ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/Callback.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+          <folding>
+            <marker date="1529629017871" expanded="true" signature="33:356" ph="{...}" />
+            <marker date="1529629017871" expanded="true" signature="40:110" ph="/// 根据access_token获得对应用户身份的openid ... " />
+            <marker date="1529629017871" expanded="true" signature="136:354" ph="{...}" />
+            <marker date="1529629017871" expanded="true" signature="151:200" ph="///  ... " />
+            <marker date="1529629017871" expanded="true" signature="256:305" ph="///  ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/CheckPageResult.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding>
+            <marker date="1529629022614" expanded="true" signature="60:335" ph="{...}" />
+            <marker date="1529629022614" expanded="true" signature="67:127" ph="/// 验证登录的用户是否为某个认证空间的粉丝 ... " />
+            <marker date="1529629022614" expanded="true" signature="172:333" ph="{...}" />
+            <marker date="1529629022614" expanded="true" signature="187:287" ph="/// 1 表示登录的用户是该认证空间的粉丝； ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/DelWeiboResult.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <marker date="1529628944774" expanded="false" signature="6:116" ph="..." />
+            <marker date="1529628944774" expanded="true" signature="146:375" ph="{...}" />
+            <marker date="1529628944774" expanded="true" signature="153:201" ph="/// 删除微博的结果 ... " />
+            <marker date="1529628944774" expanded="true" signature="248:367" ph="{...}" />
+            <marker date="1529628944774" expanded="true" signature="263:317" ph="/// 删除的微博 ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Api/RestApi.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding>
+            <marker date="1529629043075" expanded="true" signature="6:177" ph="..." />
+            <marker date="1529629043075" expanded="true" signature="209:2550" ph="{...}" />
+            <marker date="1529629043075" expanded="true" signature="216:264" ph="/// QQ登录API ... " />
+            <marker date="1529629043075" expanded="true" signature="297:2548" ph="{...}" />
+            <marker date="1529629043075" expanded="true" signature="350:412" ph="/// QQ互联API的上下文数据 ... " />
+            <marker date="1529629043075" expanded="true" signature="448:541" ph="{...}" />
+            <marker date="1529629043075" expanded="true" signature="638:753" ph="/// 构造函数，初始化访问QQ互联API的上下文数据 ... " />
+            <marker date="1529629043075" expanded="true" signature="798:984" ph="{...}" />
+            <marker date="1529629043075" expanded="false" signature="1005:2542" ph="私有辅助方法" />
+            <marker date="1529629043075" expanded="true" signature="1137:1889" ph="{...}" />
+            <marker date="1529629043075" expanded="true" signature="1596:1877" ph="{...}" />
+            <marker date="1529629043075" expanded="true" signature="1672:1767" ph="{...}" />
+            <marker date="1529629043075" expanded="true" signature="1788:1863" ph="{...}" />
+            <marker date="1529629043075" expanded="true" signature="1982:2226" ph="{...}" />
+            <marker date="1529629043075" expanded="true" signature="2107:2187" ph="{...}" />
+            <marker date="1529629043075" expanded="true" signature="2301:2522" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Api/Tenpay.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <marker date="1529629067064" expanded="true" signature="70:1168" ph="{...}" />
+            <marker date="1529629067064" expanded="true" signature="105:1166" ph="{...}" />
+            <marker date="1529629067064" expanded="true" signature="120:638" ph="/// 获取财付通用户的收货地址。一个用户可能设置了多条收货地址信息。 ... " />
+            <marker date="1529629067064" expanded="true" signature="723:1160" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Api/Util.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <marker date="1529629078343" expanded="true" signature="45:652" ph="{...}" />
+            <marker date="1529629078343" expanded="true" signature="62:650" ph="{...}" />
+            <marker date="1529629078343" expanded="true" signature="77:130" ph="/// 随机种子 ... " />
+            <marker date="1529629078343" expanded="true" signature="193:281" ph="/// 生成一个随机码 ... " />
+            <marker date="1529629078343" expanded="true" signature="329:644" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Api/RequestHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <marker date="1529629078356" expanded="true" signature="6:84" ph="..." />
+            <marker date="1529629078356" expanded="true" signature="116:14818" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="152:14816" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="189:222" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="325:1337" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="436:725" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="742:938" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="1407:1671" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="1728:2024" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="2218:3531" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="2615:2701" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="2749:2835" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="2882:2966" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="3013:3097" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="3142:3222" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="3270:3356" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="3401:3481" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="3599:3859" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="3983:4760" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="4331:4419" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="4464:4544" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="4588:4666" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="4822:5149" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="5311:6253" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="5771:5859" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="5904:5984" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="6028:6106" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="6405:6941" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="7003:7220" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="7313:7779" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="7530:7610" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="7657:7741" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="7862:8187" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="8270:8595" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="8676:9231" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="8976:9056" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="9105:9193" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="9311:9863" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="9611:9691" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="9739:9825" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="9925:10132" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="10262:11067" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="10624:10714" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="10810:10898" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="10945:11029" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="11220:12193" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="11673:11755" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="11803:11889" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="11917:11991" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="12019:12093" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="12274:12671" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="12832:14013" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="13137:13225" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="13273:13359" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="13486:13570" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="13616:13698" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="13744:13826" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="13879:13975" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="14111:14473" ph="{...}" />
+            <marker date="1529629078356" expanded="true" signature="14545:14810" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Api/Weiyun.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <marker date="1529629129529" expanded="true" signature="6:95" ph="..." />
+            <marker date="1529629129529" expanded="true" signature="127:877" ph="{...}" />
+            <marker date="1529629129529" expanded="true" signature="162:875" ph="{...}" />
+            <marker date="1529629129529" expanded="true" signature="201:221" ph="{...}" />
+            <marker date="1529629129529" expanded="true" signature="232:380" ph="/// 获取库视图支持的类型 ... " />
+            <marker date="1529629129529" expanded="true" signature="431:869" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Authenticators/OAuthAuthenticator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding>
+            <marker date="1529629078340" expanded="true" signature="6:48" ph="..." />
+            <marker date="1529629078340" expanded="true" signature="91:1430" ph="{...}" />
+            <marker date="1529629078340" expanded="true" signature="98:178" ph="/// 腾讯社区开放平台OAuth2，腾讯社区开放平台额外增加了一个OpenId的参数 ... " />
+            <marker date="1529629078340" expanded="true" signature="253:1428" ph="{...}" />
+            <marker date="1529629078340" expanded="true" signature="354:591" ph="/// 构造函数，OAuth2.0协议必须传入的通用参数 ... " />
+            <marker date="1529629078340" expanded="true" signature="728:826" ph="{...}" />
+            <marker date="1529629078340" expanded="true" signature="836:1059" ph="/// 调用所有OpenAPI时，除了各接口私有的参数外，所有OpenAPI都需要传入基于OAuth2.0协议的通用参数 ... " />
+            <marker date="1529629078340" expanded="true" signature="1143:1422" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Config/Endpoints.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+          <folding>
+            <marker date="1529629078347" expanded="true" signature="33:216" ph="{...}" />
+            <marker date="1529629078347" expanded="true" signature="55:214" ph="{...}" />
+            <marker date="1529629078347" expanded="true" signature="70:131" ph="/// QQ互联API的基础地址 ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Config/QQConnectConfig.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <marker date="1529629078364" expanded="true" signature="6:51" ph="..." />
+            <marker date="1529629078364" expanded="true" signature="86:1760" ph="{...}" />
+            <marker date="1529629078364" expanded="true" signature="93:143" ph="/// QQ互联的配置数据 ... " />
+            <marker date="1529629078364" expanded="true" signature="195:1758" ph="{...}" />
+            <marker date="1529629078364" expanded="true" signature="368:475" ph="/// 获取Authorization Code的URL地址 ... " />
+            <marker date="1529629078364" expanded="true" signature="515:584" ph="{...}" />
+            <marker date="1529629078364" expanded="true" signature="594:709" ph="/// 申请QQ登录成功后，分配给应用的appid ... " />
+            <marker date="1529629078364" expanded="true" signature="743:806" ph="{...}" />
+            <marker date="1529629078364" expanded="true" signature="816:935" ph="/// 申请QQ登录成功后，分配给网站的appkey ... " />
+            <marker date="1529629078364" expanded="true" signature="972:1038" ph="{...}" />
+            <marker date="1529629078364" expanded="true" signature="1048:1135" ph="/// 得到回调地址 ... " />
+            <marker date="1529629078364" expanded="true" signature="1171:1752" ph="{...}" />
+            <marker date="1529629078364" expanded="true" signature="1318:1700" ph="{...}" />
+            <marker date="1529629078364" expanded="true" signature="1349:1686" ph="/* var current = HttpContext.Current; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Exceptions/QzoneException.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <marker date="1529629078359" expanded="true" signature="6:48" ph="..." />
+            <marker date="1529629078359" expanded="true" signature="87:1034" ph="{...}" />
+            <marker date="1529629078359" expanded="true" signature="94:140" ph="/// 异常处理类 ... " />
+            <marker date="1529629078359" expanded="true" signature="184:1032" ph="{...}" />
+            <marker date="1529629078359" expanded="true" signature="199:256" ph="/// Http请求状态 ... " />
+            <marker date="1529629078359" expanded="true" signature="320:374" ph="///默认构造函数 ... " />
+            <marker date="1529629078359" expanded="true" signature="405:425" ph="{...}" />
+            <marker date="1529629078359" expanded="true" signature="435:531" ph="/// 构造函数 ... " />
+            <marker date="1529629078359" expanded="true" signature="605:626" ph="{...}" />
+            <marker date="1529629078359" expanded="true" signature="635:725" ph="/// 构造函数 ... " />
+            <marker date="1529629078359" expanded="true" signature="772:857" ph="{...}" />
+            <marker date="1529629078359" expanded="true" signature="867:966" ph="/// The response of the error call (for Debugging use) ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/QOpenClient.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1529629036999" expanded="false" signature="6:182" ph="..." />
+            <marker date="1529629036999" expanded="true" signature="210:14547" ph="{...}" />
+            <marker date="1529629036999" expanded="true" signature="217:269" ph="/// QQ登录 API 入口 ... " />
+            <marker date="1529629036999" expanded="true" signature="317:14545" ph="{...}" />
+            <marker date="1529629036999" expanded="true" signature="357:620" ph="/// 构造函数，用于用户接受授权后使用Authorization Code获取AccessToken ... " />
+            <marker date="1529629036999" expanded="true" signature="681:950" ph="{...}" />
+            <marker date="1529629036999" expanded="true" signature="802:896" ph="{...}" />
+            <marker date="1529629036999" expanded="true" signature="960:1142" ph="/// 构造函数，用于用户已经完成授权后，将OAuthToken持久化保存后，使用这个函数从持久化介质中获取到的 ... " />
+            <marker date="1529629036999" expanded="true" signature="1192:1355" ph="{...}" />
+            <marker date="1529629036999" expanded="true" signature="1407:1478" ph="/// 访问QQ互联的SDK的AccessToken ... " />
+            <marker date="1529629036999" expanded="true" signature="1516:1617" ph="{...}" />
+            <marker date="1529629036999" expanded="true" signature="1627:1722" ph="/// 获取用户在QQ空间的个人资料 ... " />
+            <marker date="1529629036999" expanded="true" signature="1759:1824" ph="{...}" />
+            <marker date="1529629036999" expanded="true" signature="1834:3412" ph="/// 第三方网站可以调用本分享接口，在用户授权的情况下，可以以用户的名义发布一条动态（feeds）到QQ空间和朋友网上， ... " />
+            <marker date="1529629036999" expanded="true" signature="3611:3728" ph="{...}" />
+            <marker date="1529629036999" expanded="true" signature="3738:3884" ph="/// 验证登录的用户是否为某个认证空间的粉丝 ... " />
+            <marker date="1529629036999" expanded="true" signature="3940:4006" ph="{...}" />
+            <marker date="1529629036999" expanded="true" signature="4016:4593" ph="/// 发表一条微博信息（纯文本）到腾讯微博平台上 ... " />
+            <marker date="1529629036999" expanded="true" signature="4723:4820" ph="{...}" />
+            <marker date="1529629036999" expanded="true" signature="4830:5569" ph="/// 上传一张图片，并发布一条消息到腾讯微博平台上 ... " />
+            <marker date="1529629036999" expanded="true" signature="5740:5864" ph="{...}" />
+            <marker date="1529629036999" expanded="true" signature="5874:6010" ph="/// 根据微博ID删除指定微博。 ... " />
+            <marker date="1529629036999" expanded="true" signature="6059:6120" ph="{...}" />
+            <marker date="1529629036999" expanded="true" signature="6130:6855" ph="/// 获取一条微博的转播或评论信息列表。 ... " />
+            <marker date="1529629036999" expanded="true" signature="6991:7106" ph="{...}" />
+            <marker date="1529629036999" expanded="true" signature="7116:7213" ph="/// 获取腾讯微博登录用户的用户资料。 ... " />
+            <marker date="1529629036999" expanded="true" signature="7258:7325" ph="{...}" />
+            <marker date="1529629036999" expanded="true" signature="7335:7579" ph="/// 获取腾讯微博其他用户详细信息。 ... " />
+            <marker date="1529629036999" expanded="true" signature="7649:7733" ph="{...}" />
+            <marker date="1529629036999" expanded="true" signature="7743:7952" ph="/// 获取登录用户的听众列表 ... " />
+            <marker date="1529629036999" expanded="true" signature="8017:8097" ph="{...}" />
+            <marker date="1529629036999" expanded="true" signature="8108:8320" ph="/// 获取登录用户收听的人的列表。 ... " />
+            <marker date="1529629036999" expanded="true" signature="8385:8465" ph="{...}" />
+            <marker date="1529629036999" expanded="true" signature="8475:8843" ph="/// 收听腾讯微博上的用户。 ... " />
+            <marker date="1529629036999" expanded="true" signature="8911:8983" ph="{...}" />
+            <marker date="1529629036999" expanded="true" signature="8994:9212" ph="/// 取消收听腾讯微博上的用户。         ... " />
+            <marker date="1529629036999" expanded="true" signature="9279:9350" ph="{...}" />
+            <marker date="1529629036999" expanded="true" signature="9360:9453" ph="/// 获取登录用户的相册列表。 ... " />
+            <marker date="1529629036999" expanded="true" signature="9505:9579" ph="{...}" />
+            <marker date="1529629036999" expanded="true" signature="9589:10140" ph="/// 登录用户创建相册 ... " />
+            <marker date="1529629036999" expanded="true" signature="10267:10370" ph="{...}" />
+            <marker date="1529629036999" expanded="true" signature="10380:10927" ph="/// 登录用户上传照片。 ... " />
+            <marker date="1529629036999" expanded="true" signature="11061:11173" ph="{...}" />
+            <marker date="1529629036999" expanded="true" signature="11191:11432" ph="/// 登录用户发表一篇新日志 ... " />
+            <marker date="1529629036999" expanded="true" signature="11499:11571" ph="{...}" />
+            <marker date="1529629036999" expanded="true" signature="11582:13128" ph="/// 登录用户发布心情，发布以后，将在QQ空间的说说下添加一条动态，以分享给好友。 ... " />
+            <marker date="1529629036999" expanded="true" signature="13290:13407" ph="{...}" />
+            <marker date="1529629036999" expanded="true" signature="13417:13935" ph="/// 获取财付通用户的收货地址。一个用户可能设置了多条收货地址信息。 ... " />
+            <marker date="1529629036999" expanded="true" signature="14028:14110" ph="{...}" />
+            <marker date="1529629036999" expanded="true" signature="14121:14269" ph="/// 获取库视图支持的类型 ... " />
+            <marker date="1529629036999" expanded="true" signature="14319:14539" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Context/QzoneContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding>
+            <marker date="1529629155959" expanded="true" signature="6:147" ph="..." />
+            <marker date="1529629155959" expanded="true" signature="183:3979" ph="{...}" />
+            <marker date="1529629155959" expanded="true" signature="190:241" ph="/// QQ登陆的上下文数据 ... " />
+            <marker date="1529629155959" expanded="true" signature="290:3977" ph="{...}" />
+            <marker date="1529629155959" expanded="true" signature="339:508" ph="/// 用于用户接受授权后使用Authorization Code进行上下文设置 ... " />
+            <marker date="1529629155959" expanded="true" signature="557:728" ph="{...}" />
+            <marker date="1529629155959" expanded="true" signature="738:801" ph="/// 用户将第一次使用QQ互联服务 ... " />
+            <marker date="1529629155959" expanded="true" signature="863:896" ph="{...}" />
+            <marker date="1529629155959" expanded="true" signature="906:1083" ph="/// 用于用户已经完成授权后，将OAuthToken持久化保存后，使用这个函数从持久化介质中获取到的 ... " />
+            <marker date="1529629155959" expanded="true" signature="1134:1294" ph="{...}" />
+            <marker date="1529629155959" expanded="true" signature="1352:1405" ph="/// 配置数据 ... " />
+            <marker date="1529629155959" expanded="true" signature="1443:1534" ph="{...}" />
+            <marker date="1529629155959" expanded="true" signature="1544:2177" ph="/// 获取Authorization Code的URL地址 ... " />
+            <marker date="1529629155959" expanded="true" signature="2249:2852" ph="{...}" />
+            <marker date="1529629155959" expanded="true" signature="2343:2564" ph="{...}" />
+            <marker date="1529629155959" expanded="true" signature="2581:2818" ph="{...}" />
+            <marker date="1529629155959" expanded="true" signature="2901:2998" ph="/// 用于用户接受授权后使用Authorization Code，用于后续获取Access Token ... " />
+            <marker date="1529629155959" expanded="true" signature="3034:3219" ph="{...}" />
+            <marker date="1529629155959" expanded="true" signature="3060:3126" ph="{...}" />
+            <marker date="1529629155959" expanded="true" signature="3142:3209" ph="{...}" />
+            <marker date="1529629155959" expanded="true" signature="3269:3354" ph="/// 通过Authorization Code获取到的Access Token ... " />
+            <marker date="1529629155959" expanded="true" signature="3392:3571" ph="{...}" />
+            <marker date="1529629155959" expanded="true" signature="3418:3481" ph="{...}" />
+            <marker date="1529629155959" expanded="true" signature="3497:3561" ph="{...}" />
+            <marker date="1529629155959" expanded="true" signature="3581:3786" ph="/// 通过Authorization Code获取Access Token ... " />
+            <marker date="1529629155959" expanded="true" signature="3841:3963" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Api/Qzone.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+          <folding>
+            <marker date="1529629078330" expanded="true" signature="6:247" ph="..." />
+            <marker date="1529629078330" expanded="true" signature="274:11655" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="314:11653" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="329:534" ph="/// 通过Authorization Code获取Access Token ... " />
+            <marker date="1529629078330" expanded="true" signature="611:978" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="1032:1257" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="1311:1505" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="1570:2204" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="1731:2168" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="1857:1972" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="2025:2154" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="2214:2314" ph="/// 获取当前的登陆用户信息 ... " />
+            <marker date="1529629078330" expanded="true" signature="2351:2798" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="2808:4386" ph="/// 第三方网站可以调用本分享接口，在用户授权的情况下，可以以用户的名义发布一条动态（feeds）到QQ空间和朋友网上， ... " />
+            <marker date="1529629078330" expanded="true" signature="4585:5041" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="5051:5197" ph="/// 验证登录的用户是否为某个认证空间的粉丝 ... " />
+            <marker date="1529629078330" expanded="true" signature="5253:5702" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="5712:5805" ph="/// 获取登录用户的相册列表。 ... " />
+            <marker date="1529629078330" expanded="true" signature="5857:6302" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="6312:6863" ph="/// 登录用户创建相册 ... " />
+            <marker date="1529629078330" expanded="true" signature="6990:7466" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="7476:8023" ph="/// 登录用户上传照片。 ... " />
+            <marker date="1529629078330" expanded="true" signature="8156:8646" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="8656:8897" ph="/// 登录用户发表一篇新日志 ... " />
+            <marker date="1529629078330" expanded="true" signature="8964:9435" ph="{...}" />
+            <marker date="1529629078330" expanded="true" signature="9445:10991" ph="/// 登录用户发布心情，发布以后，将在QQ空间的说说下添加一条动态，以分享给好友。 ... " />
+            <marker date="1529629078330" expanded="true" signature="11134:11646" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/LibraryType.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding>
+            <marker date="1529629164205" expanded="false" signature="6:59" ph="..." />
+            <marker date="1529629164205" expanded="true" signature="94:789" ph="{...}" />
+            <marker date="1529629164205" expanded="true" signature="101:156" ph="/// 获取微云支持的库视图类型结果 ... " />
+            <marker date="1529629164205" expanded="true" signature="205:331" ph="{...}" />
+            <marker date="1529629164205" expanded="true" signature="220:279" ph="/// 库视图支持的类型列表 ... " />
+            <marker date="1529629164205" expanded="true" signature="337:386" ph="/// 库视图支持的类型 ... " />
+            <marker date="1529629164205" expanded="true" signature="415:629" ph="{...}" />
+            <marker date="1529629164205" expanded="true" signature="430:481" ph="/// 名称 ... " />
+            <marker date="1529629164205" expanded="true" signature="531:582" ph="/// 描述 ... " />
+            <marker date="1529629164205" expanded="true" signature="635:686" ph="/// 库视图支持的类型列表 ... " />
+            <marker date="1529629164205" expanded="true" signature="715:787" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/MicroBlogBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <marker date="1529629175556" expanded="true" signature="60:428" ph="{...}" />
+            <marker date="1529629175556" expanded="true" signature="67:113" ph="/// 微博的基类 ... " />
+            <marker date="1529629175556" expanded="true" signature="155:426" ph="{...}" />
+            <marker date="1529629175556" expanded="true" signature="170:376" ph="/// 二级错误码,http://wiki.opensns.qq.com/wiki/%E3%80%90QQ%E7%99%BB%E5%BD%95%E3%80%91%E5%BE%AE%E5%8D%9A%E7%A7%81%E6%9C ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/OAuthToken.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <marker date="1529629175574" expanded="true" signature="48:502" ph="{...}" />
+            <marker date="1529629175574" expanded="true" signature="55:108" ph="/// QQ空间OAuth2.0 ... " />
+            <marker date="1529629175574" expanded="true" signature="155:500" ph="{...}" />
+            <marker date="1529629175574" expanded="true" signature="170:231" ph="/// access token ... " />
+            <marker date="1529629175574" expanded="true" signature="289:344" ph="/// 用户唯一标识 ... " />
+            <marker date="1529629175574" expanded="true" signature="397:450" ph="/// 过期时间 ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/Picture.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding>
+            <marker date="1529629175563" expanded="true" signature="60:928" ph="{...}" />
+            <marker date="1529629175563" expanded="true" signature="67:112" ph="/// 照片数据 ... " />
+            <marker date="1529629175563" expanded="true" signature="149:926" ph="{...}" />
+            <marker date="1529629175563" expanded="true" signature="164:217" ph="/// 相册ID ... " />
+            <marker date="1529629175563" expanded="true" signature="247:269" ph="{...}" />
+            <marker date="1529629175563" expanded="true" signature="279:333" ph="/// 大图ID  ... " />
+            <marker date="1529629175563" expanded="true" signature="384:439" ph="///  小图ID  ... " />
+            <marker date="1529629175563" expanded="true" signature="490:544" ph="/// 大图地址  ... " />
+            <marker date="1529629175563" expanded="true" signature="600:654" ph="/// 小图地址  ... " />
+            <marker date="1529629175563" expanded="true" signature="710:769" ph="/// 图片高（单位：像素） ... " />
+            <marker date="1529629175563" expanded="true" signature="819:879" ph="/// 图片宽（单位：像素）  ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/QzoneBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+          <folding>
+            <marker date="1529629175549" expanded="true" signature="33:369" ph="{...}" />
+            <marker date="1529629175549" expanded="true" signature="40:93" ph="/// QQ互联的所有结果的基类 ... " />
+            <marker date="1529629175549" expanded="true" signature="120:367" ph="{...}" />
+            <marker date="1529629175549" expanded="true" signature="135:188" ph="/// 返回码  ... " />
+            <marker date="1529629175549" expanded="true" signature="234:321" ph="/// 如果ret 小于 0，会有相应的错误信息提示，返回数据全部用UTF-8编码  ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/User.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <marker date="1529629175560" expanded="true" signature="33:702" ph="{...}" />
+            <marker date="1529629175560" expanded="true" signature="40:90" ph="/// QQ空间的个人资料 ... " />
+            <marker date="1529629175560" expanded="true" signature="124:700" ph="{...}" />
+            <marker date="1529629175560" expanded="true" signature="139:191" ph="/// 昵称  ... " />
+            <marker date="1529629175560" expanded="true" signature="246:300" ph="/// 头像URL ... " />
+            <marker date="1529629175560" expanded="true" signature="356:407" ph="/// 性别 ... " />
+            <marker date="1529629175560" expanded="true" signature="460:538" ph="/// 标识用户是否为黄钻用户（0：非黄钻用户； 1：黄钻用户）  ... " />
+            <marker date="1529629175560" expanded="true" signature="585:654" ph="///  黄钻等级。如果不是黄钻用户，则返回0  ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/UserAlbums.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <marker date="1529629175567" expanded="true" signature="6:47" ph="..." />
+            <marker date="1529629175567" expanded="true" signature="82:1143" ph="{...}" />
+            <marker date="1529629175567" expanded="true" signature="89:136" ph="///  用户的相册 ... " />
+            <marker date="1529629175567" expanded="true" signature="176:403" ph="{...}" />
+            <marker date="1529629175567" expanded="true" signature="191:244" ph="/// 相册列表 ... " />
+            <marker date="1529629175567" expanded="true" signature="300:354" ph="/// 相册总数  ... " />
+            <marker date="1529629175567" expanded="true" signature="409:452" ph="/// 相册 ... " />
+            <marker date="1529629175567" expanded="true" signature="487:1141" ph="{...}" />
+            <marker date="1529629175567" expanded="true" signature="502:556" ph="///  相册ID ... " />
+            <marker date="1529629175567" expanded="true" signature="609:665" ph="/// 相册分类ID  ... " />
+            <marker date="1529629175567" expanded="true" signature="716:772" ph="/// 相册创建时间  ... " />
+            <marker date="1529629175567" expanded="true" signature="831:885" ph="/// 相册描述  ... " />
+            <marker date="1529629175567" expanded="true" signature="935:989" ph="/// 相册名称  ... " />
+            <marker date="1529629175567" expanded="true" signature="1040:1094" ph="///  照片数  ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/WeiboFan.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <marker date="1529629175570" expanded="true" signature="6:73" ph="..." />
+            <marker date="1529629175570" expanded="true" signature="108:2938" ph="{...}" />
+            <marker date="1529629175570" expanded="true" signature="115:161" ph="/// 用户的粉丝 ... " />
+            <marker date="1529629175570" expanded="true" signature="203:324" ph="{...}" />
+            <marker date="1529629175570" expanded="true" signature="218:275" ph="/// 听众的列表信息。 ... " />
+            <marker date="1529629175570" expanded="true" signature="330:376" ph="/// 用户的听众 ... " />
+            <marker date="1529629175570" expanded="true" signature="419:540" ph="{...}" />
+            <marker date="1529629175570" expanded="true" signature="434:491" ph="/// 听众的列表信息。 ... " />
+            <marker date="1529629175570" expanded="true" signature="546:593" ph="/// 微博用户数据 ... " />
+            <marker date="1529629175570" expanded="true" signature="619:1023" ph="{...}" />
+            <marker date="1529629175570" expanded="true" signature="634:691" ph="/// 服务器时间戳。  ... " />
+            <marker date="1529629175570" expanded="true" signature="745:859" ph="///  表示是否还有听众信息可以拉取。 ... " />
+            <marker date="1529629175570" expanded="true" signature="910:967" ph="/// 听众的详细信息列 ... " />
+            <marker date="1529629175570" expanded="true" signature="1029:1072" ph="/// 用户 ... " />
+            <marker date="1529629175570" expanded="true" signature="1093:2462" ph="{...}" />
+            <marker date="1529629175570" expanded="true" signature="1108:1164" ph="/// 听众的账户名。 ... " />
+            <marker date="1529629175570" expanded="true" signature="1213:1282" ph="/// 听众的唯一ID，与QQ号码一一对应。   ... " />
+            <marker date="1529629175570" expanded="true" signature="1332:1388" ph="///  听众的昵称。 ... " />
+            <marker date="1529629175570" expanded="true" signature="1437:1496" ph="/// 听众头像url。   ... " />
+            <marker date="1529629175570" expanded="true" signature="1543:1617" ph="/// 听众性别（0：表示未填写； 1：男； 2：女）。  ... " />
+            <marker date="1529629175570" expanded="true" signature="1665:1721" ph="/// 听众所在地。  ... " />
+            <marker date="1529629175570" expanded="true" signature="1774:1841" ph="/* 听众最近发表的一条微博。 ... */" />
+            <marker date="1529629175570" expanded="true" signature="1900:1956" ph="///  听众数。   ... " />
+            <marker date="1529629175570" expanded="true" signature="2003:2061" ph="///  收听的人数。   ... " />
+            <marker date="1529629175570" expanded="true" signature="2110:2182" ph="/// 是否为用户收听的人（0：不是； 1：是）。   ... " />
+            <marker date="1529629175570" expanded="true" signature="2230:2304" ph="/// 听众是否为微博认证用户（0：不是； 1：是）。   ... " />
+            <marker date="1529629175570" expanded="true" signature="2351:2406" ph="/// 标签信息列表 ... " />
+            <marker date="1529629175570" expanded="true" signature="2488:2936" ph="{...}" />
+            <marker date="1529629175570" expanded="true" signature="2503:2559" ph="/// 微博的来源。  ... " />
+            <marker date="1529629175570" expanded="true" signature="2608:2675" ph="/// 微博ID，用来唯一标识一条微博。   ... " />
+            <marker date="1529629175570" expanded="true" signature="2722:2778" ph="/// 微博的内容。  ... " />
+            <marker date="1529629175570" expanded="true" signature="2829:2886" ph="/// 发表微博的时间。 ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/WeiboRePost.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <marker date="1529629175553" expanded="true" signature="6:47" ph="..." />
+            <marker date="1529629175553" expanded="true" signature="82:3281" ph="{...}" />
+            <marker date="1529629175553" expanded="true" signature="89:136" ph="/// 转播或者评论 ... " />
+            <marker date="1529629175553" expanded="true" signature="180:301" ph="{...}" />
+            <marker date="1529629175553" expanded="true" signature="195:255" ph="/// 转播或评论的信息列表。 ... " />
+            <marker date="1529629175553" expanded="true" signature="307:356" ph="/// 转播或评论的信息 ... " />
+            <marker date="1529629175553" expanded="true" signature="380:880" ph="{...}" />
+            <marker date="1529629175553" expanded="true" signature="395:502" ph="/// 表示是否还有微博可以拉取。 ... " />
+            <marker date="1529629175553" expanded="true" signature="553:608" ph="/// 服务器时间戳 ... " />
+            <marker date="1529629175553" expanded="true" signature="664:715" ph="/// 总数 ... " />
+            <marker date="1529629175553" expanded="true" signature="766:825" ph="/// 微博的详细信息列表。 ... " />
+            <marker date="1529629175553" expanded="true" signature="907:3273" ph="{...}" />
+            <marker date="1529629175553" expanded="true" signature="922:980" ph="/// 获取的微博的内容。 ... " />
+            <marker date="1529629175553" expanded="true" signature="1030:1091" ph="///  获取源微博的内容。   ... " />
+            <marker date="1529629175553" expanded="true" signature="1142:1196" ph="/// 转播次数。 ... " />
+            <marker date="1529629175553" expanded="true" signature="1244:1300" ph="///  评论数。   ... " />
+            <marker date="1529629175553" expanded="true" signature="1346:1401" ph="/// 微博来源。  ... " />
+            <marker date="1529629175553" expanded="true" signature="1449:1516" ph="/// 微博的ID，用来唯一标识一条微博。  ... " />
+            <marker date="1529629175553" expanded="true" signature="1563:1623" ph="/// 微博中的图片url。  ... " />
+            <marker date="1529629175553" expanded="true" signature="1673:1735" ph="/// 发表或转播微博的用户名称。 ... " />
+            <marker date="1529629175553" expanded="true" signature="1785:1855" ph="/// 发表或转播微博的用户QQ号码对应的ID。  ... " />
+            <marker date="1529629175553" expanded="true" signature="1906:1962" ph="/// 用户昵称。   ... " />
+            <marker date="1529629175553" expanded="true" signature="2010:2083" ph="/// 是否为自己发表的微博（0：不是； 1：是）。   ... " />
+            <marker date="1529629175553" expanded="true" signature="2127:2187" ph="/// 发表或转播微博的时间。 ... " />
+            <marker date="1529629175553" expanded="true" signature="2242:2433" ph="/// 表示微博的类型。 ... " />
+            <marker date="1529629175553" expanded="true" signature="2480:2539" ph="///  用户的头像url。 ... " />
+            <marker date="1529629175553" expanded="true" signature="2588:2646" ph="/// 用户所在的省市。  ... " />
+            <marker date="1529629175553" expanded="true" signature="2699:2761" ph="///  用户所在的国家代码。   ... " />
+            <marker date="1529629175553" expanded="true" signature="2816:2877" ph="///  用户所在的省代码。   ... " />
+            <marker date="1529629175553" expanded="true" signature="2933:2994" ph="///  用户所在的城市代码   ... " />
+            <marker date="1529629175553" expanded="true" signature="3050:3123" ph="///  用户是否为微博认证用户（0：不是； 1：是）。 ... " />
+            <marker date="1529629175553" expanded="true" signature="3168:3226" ph="/// 用户地理信息。   ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/WeiboUser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <marker date="1529629175578" expanded="true" signature="6:47" ph="..." />
+            <marker date="1529629175578" expanded="true" signature="82:3710" ph="{...}" />
+            <marker date="1529629175578" expanded="true" signature="89:137" ph="/// 微博的用户数据 ... " />
+            <marker date="1529629175578" expanded="true" signature="179:305" ph="{...}" />
+            <marker date="1529629175578" expanded="true" signature="194:255" ph="/// 登录用户的详细信息列表。 ... " />
+            <marker date="1529629175578" expanded="true" signature="311:356" ph="/// 用户数据 ... " />
+            <marker date="1529629175578" expanded="true" signature="382:2866" ph="{...}" />
+            <marker date="1529629175578" expanded="true" signature="397:455" ph="/// 登录用户的帐号名。 ... " />
+            <marker date="1529629175578" expanded="true" signature="505:574" ph="/// 登录用户的唯一ID，与QQ号码一一对应。 ... " />
+            <marker date="1529629175578" expanded="true" signature="627:683" ph="/// 登录用户昵称。 ... " />
+            <marker date="1529629175578" expanded="true" signature="730:790" ph="/// 登录用户头像url。  ... " />
+            <marker date="1529629175578" expanded="true" signature="840:899" ph="///  登录用户所在地。  ... " />
+            <marker date="1529629175578" expanded="true" signature="951:1025" ph="/// 登录用户是否为微博认证用户（0：不是； 1：是）。 ... " />
+            <marker date="1529629175578" expanded="true" signature="1071:1143" ph="/// 登录用户是否为企业机构（0：不是； 1：是）。 ... " />
+            <marker date="1529629175578" expanded="true" signature="1189:1248" ph="/// 登录用户的个人介绍。 ... " />
+            <marker date="1529629175578" expanded="true" signature="1306:1360" ph="/// 认证信息。 ... " />
+            <marker date="1529629175578" expanded="true" signature="1416:1473" ph="/// 登录用户出生年。 ... " />
+            <marker date="1529629175578" expanded="true" signature="1526:1584" ph="/// 登录用户出生月份。 ... " />
+            <marker date="1529629175578" expanded="true" signature="1638:1695" ph="/// 登录用户出生日。 ... " />
+            <marker date="1529629175578" expanded="true" signature="1747:1809" ph="/// 登录用户所在的国家代码。  ... " />
+            <marker date="1529629175578" expanded="true" signature="1863:1923" ph="/// 登录用户所在的省代码。 ... " />
+            <marker date="1529629175578" expanded="true" signature="1979:2040" ph="/// 登录用户所在的城市代码。 ... " />
+            <marker date="1529629175578" expanded="true" signature="2089:2163" ph="///   登录用户性别（1：男； 2：女； 3：未知）。 ... " />
+            <marker date="1529629175578" expanded="true" signature="2208:2267" ph="///  登录用户听众数。  ... " />
+            <marker date="1529629175578" expanded="true" signature="2315:2374" ph="/// 登录用户收听的人数。 ... " />
+            <marker date="1529629175578" expanded="true" signature="2424:2486" ph="/// 登录用户发表的微博数。   ... " />
+            <marker date="1529629175578" expanded="true" signature="2535:2590" ph="/// 标签信息列表 ... " />
+            <marker date="1529629175578" expanded="true" signature="2646:2706" ph="/// 登录用户教育信息列表。 ... " />
+            <marker date="1529629175578" expanded="true" signature="2762:2820" ph="/// 用户注册的邮箱。  ... " />
+            <marker date="1529629175578" expanded="true" signature="2872:2917" ph="/// 个人标签 ... " />
+            <marker date="1529629175578" expanded="true" signature="2942:3155" ph="{...}" />
+            <marker date="1529629175578" expanded="true" signature="2957:3012" ph="/// 个人标签id ... " />
+            <marker date="1529629175578" expanded="true" signature="3057:3111" ph="///  标签名。 ... " />
+            <marker date="1529629175578" expanded="true" signature="3181:3708" ph="{...}" />
+            <marker date="1529629175578" expanded="true" signature="3196:3253" ph="/// 学历记录ID。  ... " />
+            <marker date="1529629175578" expanded="true" signature="3296:3351" ph="/// 入学年。   ... " />
+            <marker date="1529629175578" expanded="true" signature="3396:3449" ph="/// 学校ID ... " />
+            <marker date="1529629175578" expanded="true" signature="3500:3556" ph="///  院系id。  ... " />
+            <marker date="1529629175578" expanded="true" signature="3609:3663" ph="/// 学历级别。 ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Models/WeiyunBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+          <folding>
+            <marker date="1529629175581" expanded="true" signature="33:364" ph="{...}" />
+            <marker date="1529629175581" expanded="true" signature="40:87" ph="/// 微云接口基类 ... " />
+            <marker date="1529629175581" expanded="true" signature="115:362" ph="{...}" />
+            <marker date="1529629175581" expanded="true" signature="130:183" ph="/// 返回码  ... " />
+            <marker date="1529629175581" expanded="true" signature="229:316" ph="/// 如果ret 小于 0，会有相应的错误信息提示，返回数据全部用UTF-8编码  ... " />
+          </folding>
         </state>
       </provider>
     </entry>

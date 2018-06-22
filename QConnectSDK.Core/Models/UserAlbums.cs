@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
-namespace QConnectSDK.Models
+namespace QConnectSDK.Core.Models
 {
     /// <summary>
     ///  用户的相册

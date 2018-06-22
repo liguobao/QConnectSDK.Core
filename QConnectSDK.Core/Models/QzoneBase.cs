@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace QConnectSDK.Models
+﻿namespace QConnectSDK.Core.Models
 {
     /// <summary>
     /// QQ互联的所有结果的基类

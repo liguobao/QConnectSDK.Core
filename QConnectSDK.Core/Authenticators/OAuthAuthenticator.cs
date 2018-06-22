@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using RestSharp;
+﻿using RestSharp;
 using RestSharp.Authenticators;
 
-namespace QConnectSDK.Authenticators
+namespace QConnectSDK.Core.Authenticators
 {
     /// <summary>
     /// 腾讯社区开放平台OAuth2，腾讯社区开放平台额外增加了一个OpenId的参数

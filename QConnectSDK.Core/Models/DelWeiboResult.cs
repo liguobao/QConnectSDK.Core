@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using QConnectSDK.Core.Models;
 
 namespace QConnectSDK.Models
 {

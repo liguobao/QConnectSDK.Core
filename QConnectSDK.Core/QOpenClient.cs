@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using QConnectSDK.Api;
-using QConnectSDK.Context;
+using QConnectSDK.Core.Api;
+using QConnectSDK.Core.Context;
+using QConnectSDK.Core.Models;
 using QConnectSDK.Models;
 
-namespace QConnectSDK
+namespace QConnectSDK.Core
 {
     /// <summary>
     /// QQ登录 API 入口

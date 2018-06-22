@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace QConnectSDK.Models
+﻿namespace QConnectSDK.Core.Models
 {
     /// <summary>
     /// 根据access_token获得对应用户身份的openid

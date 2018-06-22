@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
+using QConnectSDK.Models;
 
-namespace QConnectSDK.Models
+namespace QConnectSDK.Core.Models
 {
     /// <summary>
     /// 获取微云支持的库视图类型结果

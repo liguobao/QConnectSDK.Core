@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using QConnectSDK.Models;
 
-namespace QConnectSDK.Models
+namespace QConnectSDK.Core.Models
 {
     /// <summary>
     /// 照片数据

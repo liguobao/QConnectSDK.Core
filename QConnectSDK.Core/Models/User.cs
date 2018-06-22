@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace QConnectSDK.Models
+﻿namespace QConnectSDK.Core.Models
 {
     /// <summary>
     /// QQ空间的个人资料

@@ -1,17 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using QConnectSDK.Context;
-using QConnectSDK.Config;
-using QConnectSDK.Models;
-using QConnectSDK.Exceptions;
-using QConnectSDK.Authenticators;
-using RestSharp.Deserializers;
-using System.Net;
-using RestSharp;
+using QConnectSDK.Core.Authenticators;
+using QConnectSDK.Core.Models;
 
-namespace QConnectSDK.Api
+namespace QConnectSDK.Core.Api
 {
     
     public partial class RestApi

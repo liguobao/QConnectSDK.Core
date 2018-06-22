@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using RestSharp;
 using System.Net;
+using RestSharp;
 
-namespace QConnectSDK.Exceptions
+namespace QConnectSDK.Core.Exceptions
 {
     /// <summary>
     /// 异常处理类

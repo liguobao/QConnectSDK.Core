@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using QConnectSDK.Core.Config;
 using RestSharp;
-using QConnectSDK.Config;
 
-namespace QConnectSDK.Api
+namespace QConnectSDK.Core.Api
 {
     internal  class RequestHelper
     {

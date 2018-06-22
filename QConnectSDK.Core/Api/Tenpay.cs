@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using QConnectSDK.Authenticators;
+﻿using QConnectSDK.Core.Authenticators;
 
-namespace QConnectSDK.Api
+namespace QConnectSDK.Core.Api
 {
     public partial class RestApi
     {
