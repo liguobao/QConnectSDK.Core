@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Specialized;
+using Microsoft.Extensions.Configuration;
 
 namespace QConnectSDK.Core.Config
 {
@@ -9,8 +10,7 @@ namespace QConnectSDK.Core.Config
     [Serializable]
     public class QQConnectConfig
     {
-        private NameValueCollection
-            QzoneSection = null; // (NameValueCollection)ConfigurationManager.GetSection("QQSectionGroup/QzoneSection");
+        private IConfiguration QzoneSection = AppConfigurtaionServices.Configuration;
 
         /// <summary>
         /// 获取Authorization Code的URL地址
