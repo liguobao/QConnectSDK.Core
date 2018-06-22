@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="QConnectSDK.Core" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="Api" t="Include">
+          <e p="Microblog.cs" t="Include" />
+          <e p="Qzone.cs" t="Include" />
+          <e p="RequestHelper.cs" t="Include" />
+          <e p="RestApi.cs" t="Include" />
+          <e p="Tenpay.cs" t="Include" />
+          <e p="Util.cs" t="Include" />
+          <e p="Weiyun.cs" t="Include" />
+        </e>
+        <e p="Authenticators" t="Include">
+          <e p="OAuthAuthenticator.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Config" t="Include">
+          <e p="Endpoints.cs" t="Include" />
+          <e p="QQConnectConfig.cs" t="Include" />
+        </e>
+        <e p="Context" t="Include">
+          <e p="QzoneContext.cs" t="Include" />
+        </e>
+        <e p="Exceptions" t="Include">
+          <e p="QzoneException.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="AddBlogResult.cs" t="Include" />
+          <e p="AddWeiboResult.cs" t="Include" />
+          <e p="Callback.cs" t="Include" />
+          <e p="CheckPageResult.cs" t="Include" />
+          <e p="DelWeiboResult.cs" t="Include" />
+          <e p="LibraryType.cs" t="Include" />
+          <e p="MicroBlogBase.cs" t="Include" />
+          <e p="OAuthToken.cs" t="Include" />
+          <e p="Picture.cs" t="Include" />
+          <e p="QzoneBase.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+          <e p="UserAlbums.cs" t="Include" />
+          <e p="WeiboFan.cs" t="Include" />
+          <e p="WeiboRePost.cs" t="Include" />
+          <e p="WeiboUser.cs" t="Include" />
+          <e p="WeiyunBase.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="QConnectSDK.Core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include" />
+        <e p="QConnectSDK.Core.csproj" t="IncludeRecursive" />
+        <e p="QOpenClient.cs" t="Include" />
+      </e>
+      <e p="QConnectSDK.Core.sln" t="IncludeFlat" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.1/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_QConnectSDK.Core.-1006203211.00" t="ExcludeRecursive" />
+  </component>
+</project>

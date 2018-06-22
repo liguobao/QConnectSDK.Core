@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3f277041-cd6a-4bb2-896d-d27718377fa0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.QConnectSDK.Core/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.QConnectSDK.Core/.idea/contentModel.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Qzone.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Api/Qzone.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding>
+                <marker date="1515078580000" expanded="true" signature="6:294" ph="..." />
+                <marker date="1515078580000" expanded="true" signature="321:11702" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="361:11700" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="376:581" ph="/// 通过Authorization Code获取Access Token ... " />
+                <marker date="1515078580000" expanded="true" signature="658:1025" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="1079:1304" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="1358:1552" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="1617:2251" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="1778:2215" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="1904:2019" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="2072:2201" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="2261:2361" ph="/// 获取当前的登陆用户信息 ... " />
+                <marker date="1515078580000" expanded="true" signature="2398:2845" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="2855:4433" ph="/// 第三方网站可以调用本分享接口，在用户授权的情况下，可以以用户的名义发布一条动态（feeds）到QQ空间和朋友网上， ... " />
+                <marker date="1515078580000" expanded="true" signature="4632:5088" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="5098:5244" ph="/// 验证登录的用户是否为某个认证空间的粉丝 ... " />
+                <marker date="1515078580000" expanded="true" signature="5300:5749" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="5759:5852" ph="/// 获取登录用户的相册列表。 ... " />
+                <marker date="1515078580000" expanded="true" signature="5904:6349" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="6359:6910" ph="/// 登录用户创建相册 ... " />
+                <marker date="1515078580000" expanded="true" signature="7037:7513" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="7523:8070" ph="/// 登录用户上传照片。 ... " />
+                <marker date="1515078580000" expanded="true" signature="8203:8693" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="8703:8944" ph="/// 登录用户发表一篇新日志 ... " />
+                <marker date="1515078580000" expanded="true" signature="9011:9482" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="9492:11038" ph="/// 登录用户发布心情，发布以后，将在QQ空间的说说下添加一条动态，以分享给好友。 ... " />
+                <marker date="1515078580000" expanded="true" signature="11181:11693" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QQConnectConfig.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Config/QQConnectConfig.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+              <folding>
+                <marker date="1529628435263" expanded="true" signature="6:169" ph="..." />
+                <marker date="1529628435263" expanded="true" signature="199:1873" ph="{...}" />
+                <marker date="1529628435263" expanded="true" signature="206:256" ph="/// QQ互联的配置数据 ... " />
+                <marker date="1529628435263" expanded="true" signature="308:1871" ph="{...}" />
+                <marker date="1529628435263" expanded="true" signature="481:588" ph="/// 获取Authorization Code的URL地址 ... " />
+                <marker date="1529628435263" expanded="true" signature="628:697" ph="{...}" />
+                <marker date="1529628435263" expanded="true" signature="707:822" ph="/// 申请QQ登录成功后，分配给应用的appid ... " />
+                <marker date="1529628435263" expanded="true" signature="856:919" ph="{...}" />
+                <marker date="1529628435263" expanded="true" signature="929:1048" ph="/// 申请QQ登录成功后，分配给网站的appkey ... " />
+                <marker date="1529628435263" expanded="true" signature="1085:1151" ph="{...}" />
+                <marker date="1529628435263" expanded="true" signature="1161:1248" ph="/// 得到回调地址 ... " />
+                <marker date="1529628435263" expanded="true" signature="1284:1865" ph="{...}" />
+                <marker date="1529628435263" expanded="true" signature="1431:1813" ph="{...}" />
+                <marker date="1529628435263" expanded="true" signature="1462:1799" ph="/* var current = HttpContext.Current; ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QzoneContext.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Context/QzoneContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1515078580000" expanded="false" signature="6:273" ph="..." />
+                <marker date="1515078580000" expanded="true" signature="304:4100" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="311:362" ph="/// QQ登陆的上下文数据 ... " />
+                <marker date="1515078580000" expanded="true" signature="411:4098" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="460:629" ph="/// 用于用户接受授权后使用Authorization Code进行上下文设置 ... " />
+                <marker date="1515078580000" expanded="true" signature="678:849" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="859:922" ph="/// 用户将第一次使用QQ互联服务 ... " />
+                <marker date="1515078580000" expanded="true" signature="984:1017" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="1027:1204" ph="/// 用于用户已经完成授权后，将OAuthToken持久化保存后，使用这个函数从持久化介质中获取到的 ... " />
+                <marker date="1515078580000" expanded="true" signature="1255:1415" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="1473:1526" ph="/// 配置数据 ... " />
+                <marker date="1515078580000" expanded="true" signature="1564:1655" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="1665:2298" ph="/// 获取Authorization Code的URL地址 ... " />
+                <marker date="1515078580000" expanded="true" signature="2370:2973" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="2464:2685" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="2702:2939" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="3022:3119" ph="/// 用于用户接受授权后使用Authorization Code，用于后续获取Access Token ... " />
+                <marker date="1515078580000" expanded="true" signature="3155:3340" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="3181:3247" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="3263:3330" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="3390:3475" ph="/// 通过Authorization Code获取到的Access Token ... " />
+                <marker date="1515078580000" expanded="true" signature="3513:3692" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="3539:3602" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="3618:3682" ph="{...}" />
+                <marker date="1515078580000" expanded="true" signature="3702:3907" ph="/// 通过Authorization Code获取Access Token ... " />
+                <marker date="1515078580000" expanded="true" signature="3962:4084" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/23AB7A00-4A24-430B-AC43-8833B38A94EB/16/f1d28bfe/NameValueCollection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Context/QzoneContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Authenticators/OAuthAuthenticator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Config/QQConnectConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Api/Microblog.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QConnectSDK.Core/Api/Qzone.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/QConnectSDK.Core/Authenticators/OAuthAuthenticator.cs" />
+        <option value="$PROJECT_DIR$/QConnectSDK.Core/Config/QQConnectConfig.cs" />
+        <option value="$PROJECT_DIR$/QConnectSDK.Core/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="QConnectSDK.Core (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="QConnectSDK.Core (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="QConnectSDK.Core" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f277041-cd6a-4bb2-896d-d27718377fa0" name="Default" comment="" />
+      <created>1529628120512</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1529628120512</updated>
+      <workItem from="1529628122188" duration="600000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="600000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32923076" />
+      <window_info anchor="bottom" id="NuGet" weight="0.37435898" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" weight="0.32923076" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="NuGet" order="0" weight="0.37435898" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="10" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24969475" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="3" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info anchor="right" id="Errors In Solution" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info active="true" anchor="bottom" id="Build" order="7" visible="true" weight="0.32923076" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/23AB7A00-4A24-430B-AC43-8833B38A94EB/16/f1d28bfe/NameValueCollection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Authenticators/OAuthAuthenticator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <marker date="1529628302267" expanded="true" signature="6:134" ph="..." />
+            <marker date="1529628302267" expanded="true" signature="172:1511" ph="{...}" />
+            <marker date="1529628302267" expanded="true" signature="179:259" ph="/// 腾讯社区开放平台OAuth2，腾讯社区开放平台额外增加了一个OpenId的参数 ... " />
+            <marker date="1529628302267" expanded="true" signature="334:1509" ph="{...}" />
+            <marker date="1529628302267" expanded="true" signature="435:672" ph="/// 构造函数，OAuth2.0协议必须传入的通用参数 ... " />
+            <marker date="1529628302267" expanded="true" signature="809:907" ph="{...}" />
+            <marker date="1529628302267" expanded="true" signature="917:1140" ph="/// 调用所有OpenAPI时，除了各接口私有的参数外，所有OpenAPI都需要传入基于OAuth2.0协议的通用参数 ... " />
+            <marker date="1529628302267" expanded="true" signature="1224:1503" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Api/Microblog.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+          <folding>
+            <marker date="1515078580000" expanded="false" signature="6:145" ph="..." />
+            <marker date="1515078580000" expanded="true" signature="172:9219" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="207:9217" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="222:799" ph="/// 发表一条微博信息（纯文本）到腾讯微博平台上 ... " />
+            <marker date="1515078580000" expanded="true" signature="929:1379" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="1398:2137" ph="/// 上传一张图片，并发布一条消息到腾讯微博平台上 ... " />
+            <marker date="1515078580000" expanded="true" signature="2308:2776" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="2786:2922" ph="/// 根据微博ID删除指定微博。 ... " />
+            <marker date="1515078580000" expanded="true" signature="2971:3376" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="3386:4111" ph="/// 获取一条微博的转播或评论信息列表。 ... " />
+            <marker date="1515078580000" expanded="true" signature="4247:4698" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="4708:4805" ph="/// 获取腾讯微博登录用户的用户资料。 ... " />
+            <marker date="1515078580000" expanded="true" signature="4849:5293" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="5303:5547" ph="/// 获取腾讯微博其他用户详细信息。 ... " />
+            <marker date="1515078580000" expanded="true" signature="5621:6081" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="6091:6300" ph="/// 获取登录用户的听众列表 ... " />
+            <marker date="1515078580000" expanded="true" signature="6364:6820" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="6830:7042" ph="/// 获取登录用户收听的人的列表。 ... " />
+            <marker date="1515078580000" expanded="true" signature="7107:7564" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="7574:7942" ph="/// 收听腾讯微博上的用户。 ... " />
+            <marker date="1515078580000" expanded="true" signature="8009:8463" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="8473:8691" ph="/// 取消收听腾讯微博上的用户。         ... " />
+            <marker date="1515078580000" expanded="true" signature="8757:9210" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Api/Qzone.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <marker date="1515078580000" expanded="true" signature="6:294" ph="..." />
+            <marker date="1515078580000" expanded="true" signature="321:11702" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="361:11700" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="376:581" ph="/// 通过Authorization Code获取Access Token ... " />
+            <marker date="1515078580000" expanded="true" signature="658:1025" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="1079:1304" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="1358:1552" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="1617:2251" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="1778:2215" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="1904:2019" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="2072:2201" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="2261:2361" ph="/// 获取当前的登陆用户信息 ... " />
+            <marker date="1515078580000" expanded="true" signature="2398:2845" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="2855:4433" ph="/// 第三方网站可以调用本分享接口，在用户授权的情况下，可以以用户的名义发布一条动态（feeds）到QQ空间和朋友网上， ... " />
+            <marker date="1515078580000" expanded="true" signature="4632:5088" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="5098:5244" ph="/// 验证登录的用户是否为某个认证空间的粉丝 ... " />
+            <marker date="1515078580000" expanded="true" signature="5300:5749" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="5759:5852" ph="/// 获取登录用户的相册列表。 ... " />
+            <marker date="1515078580000" expanded="true" signature="5904:6349" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="6359:6910" ph="/// 登录用户创建相册 ... " />
+            <marker date="1515078580000" expanded="true" signature="7037:7513" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="7523:8070" ph="/// 登录用户上传照片。 ... " />
+            <marker date="1515078580000" expanded="true" signature="8203:8693" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="8703:8944" ph="/// 登录用户发表一篇新日志 ... " />
+            <marker date="1515078580000" expanded="true" signature="9011:9482" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="9492:11038" ph="/// 登录用户发布心情，发布以后，将在QQ空间的说说下添加一条动态，以分享给好友。 ... " />
+            <marker date="1515078580000" expanded="true" signature="11181:11693" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Config/QQConnectConfig.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+          <folding>
+            <marker date="1529628435263" expanded="true" signature="6:169" ph="..." />
+            <marker date="1529628435263" expanded="true" signature="199:1873" ph="{...}" />
+            <marker date="1529628435263" expanded="true" signature="206:256" ph="/// QQ互联的配置数据 ... " />
+            <marker date="1529628435263" expanded="true" signature="308:1871" ph="{...}" />
+            <marker date="1529628435263" expanded="true" signature="481:588" ph="/// 获取Authorization Code的URL地址 ... " />
+            <marker date="1529628435263" expanded="true" signature="628:697" ph="{...}" />
+            <marker date="1529628435263" expanded="true" signature="707:822" ph="/// 申请QQ登录成功后，分配给应用的appid ... " />
+            <marker date="1529628435263" expanded="true" signature="856:919" ph="{...}" />
+            <marker date="1529628435263" expanded="true" signature="929:1048" ph="/// 申请QQ登录成功后，分配给网站的appkey ... " />
+            <marker date="1529628435263" expanded="true" signature="1085:1151" ph="{...}" />
+            <marker date="1529628435263" expanded="true" signature="1161:1248" ph="/// 得到回调地址 ... " />
+            <marker date="1529628435263" expanded="true" signature="1284:1865" ph="{...}" />
+            <marker date="1529628435263" expanded="true" signature="1431:1813" ph="{...}" />
+            <marker date="1529628435263" expanded="true" signature="1462:1799" ph="/* var current = HttpContext.Current; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/obj/Debug/netstandard2.0/QConnectSDK.Core.AssemblyInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Properties/AssemblyInfo.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/Context/QzoneContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1515078580000" expanded="false" signature="6:273" ph="..." />
+            <marker date="1515078580000" expanded="true" signature="304:4100" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="311:362" ph="/// QQ登陆的上下文数据 ... " />
+            <marker date="1515078580000" expanded="true" signature="411:4098" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="460:629" ph="/// 用于用户接受授权后使用Authorization Code进行上下文设置 ... " />
+            <marker date="1515078580000" expanded="true" signature="678:849" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="859:922" ph="/// 用户将第一次使用QQ互联服务 ... " />
+            <marker date="1515078580000" expanded="true" signature="984:1017" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="1027:1204" ph="/// 用于用户已经完成授权后，将OAuthToken持久化保存后，使用这个函数从持久化介质中获取到的 ... " />
+            <marker date="1515078580000" expanded="true" signature="1255:1415" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="1473:1526" ph="/// 配置数据 ... " />
+            <marker date="1515078580000" expanded="true" signature="1564:1655" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="1665:2298" ph="/// 获取Authorization Code的URL地址 ... " />
+            <marker date="1515078580000" expanded="true" signature="2370:2973" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="2464:2685" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="2702:2939" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="3022:3119" ph="/// 用于用户接受授权后使用Authorization Code，用于后续获取Access Token ... " />
+            <marker date="1515078580000" expanded="true" signature="3155:3340" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="3181:3247" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="3263:3330" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="3390:3475" ph="/// 通过Authorization Code获取到的Access Token ... " />
+            <marker date="1515078580000" expanded="true" signature="3513:3692" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="3539:3602" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="3618:3682" ph="{...}" />
+            <marker date="1515078580000" expanded="true" signature="3702:3907" ph="/// 通过Authorization Code获取Access Token ... " />
+            <marker date="1515078580000" expanded="true" signature="3962:4084" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QConnectSDK.Core/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
